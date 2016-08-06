@@ -1,0 +1,35 @@
+BEGIN ~NTKAMIRA~
+
+IF ~~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN EXTERN ~NTSATOS~ 5
+END
+
+IF WEIGHT #1 ~Dead("NTKROTAN")~ THEN BEGIN 1
+  SAY @1
+  IF ~~ THEN DO ~EscapeArea()
+~ EXIT
+END
+
+IF WEIGHT #2 ~Global("Kamira","GLOBAL",0)
+!Global("SatosDestroyedFinally","GLOBAL",1)
+!Global("TalkedToShelton","GLOBAL",1)
+!Dead("NTSATOS")~ THEN BEGIN 2
+  SAY @2
+  IF ~~ THEN DO ~SetGlobal("Kamira","GLOBAL",1)~ EXIT
+END
+
+IF WEIGHT #0 ~Global("SatosIsDeadPB","GLOBAL",1)
+Global("TalkedToShelton","GLOBAL",1)
+Global("KamiraGoesToMauzoleum","GLOBAL",0)
+Dead("NTSATOS1")
+!Dead("NTKROTAN")~ THEN BEGIN 3
+  SAY @3
+  IF ~~ THEN DO ~SetGlobal("KamiraGoesToMauzoleum","GLOBAL",1)
+EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN 4
+  SAY @4
+  IF ~~ THEN DO ~EscapeArea()~ EXTERN ~NTMORDOR~ 1
+END

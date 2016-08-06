@@ -1,0 +1,26 @@
+IF
+  Global("MeandarNeedHelp","GLOBAL",1)
+  Global("KolchearTime","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTSALMI2",[141.325],0)
+    CreateCreature("NTSALMIC",[266.223],0)
+    CreateCreature("NTSALMIC",[286.123],0)
+    CreateCreature("NTSALMIC",[87.456],0)
+    CreateCreature("NTSALMIC",[476.553],0)
+    SetGlobal("KolchearTime","GLOBAL",1)
+END
+
+IF
+  Dead("NTMEANDA")
+  Global("MeandarIsdead","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTSALMIC",[141.325],0)
+    CreateCreature("NTSALMIC",[266.223],0)
+    CreateCreature("NTSALMIC",[286.123],0)
+    CreateCreature("NTSALMIC",[87.456],0)
+    CreateCreature("NTSALMIC",[476.553],0)
+    SetGlobal("MeandarIsdead","GLOBAL",1)
+END
+

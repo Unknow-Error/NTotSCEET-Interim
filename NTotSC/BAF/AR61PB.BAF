@@ -1,0 +1,11 @@
+IF
+  Global("TalkedToHasdar1","GLOBAL",2)
+  Global("HasdarReturnToTemple","GLOBAL",0)
+  !Dead("NTHASDAR")
+THEN
+  RESPONSE #100
+    CreateCreature("NTHASDAR",[233.268],0)
+    SetGlobal("HasdarReturnToTemple","GLOBAL",1)
+    Wait(1)
+END
+

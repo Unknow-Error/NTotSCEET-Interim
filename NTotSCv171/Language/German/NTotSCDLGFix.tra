@@ -1,0 +1,237 @@
+@1   = ~Ihr habt General Ghotal die Gelegenheit verschafft, seiner Grabstätte zu entweichen und Chaos und Verwüstung über die Lande zu bringen. Hoffentlich habt Ihr die Kraft, den Mut und das Kampfesgeschick, ihm das Handwerk zu legen!~ 
+@2   = ~Wenn es Euch nichts ausmacht, habe ich Euch eine weitere Aufgabe anzubieten. In der Nähe der Feuerwein-Brücke entdeckten wir einen Eingang zum restlichen Teil des Verlieses der Stadt-Ruinen. Leider hausen dort Dämonen, aber sie sollten Euch nicht allzu große Schwierigkeiten bereiten. Wenn Ihr dorthin geht und aufräumt - dann kann ich dort neue Erkundungen beginnen.~
+@3   = ~Danke. Ich habe die Schriftrolle, die das Siegel enthält, das Euch Einlaß verschafft. Der Eingang ist mit einer Schutzglyphe gesichert, die ein befreundeter Magieranfertigte, um jeden zufälligen Vorbeikommenden fernzuhalten. Ihr wisst jetzt, was ich meine. Also nehmt diese Schriftrolle, Ihr werdet im Stande sein, ungehindert durch den Eingang zu treten.~ 
+@4   = ~Ihr dort! Mein lieber Freund! Haltet bitte für einen Moment an!~ ~Ihr dort! Meine liebe Freundin! Haltet bitte für einen Moment an!~
+@5   = ~Nun gut, es ist einfach besser, dass ich mich von Euch verabschiede.~ 
+@6   = ~Nun... also, willkommen. Ich bin so glücklich, jemand anderes zu sehen als die Untoten, die die Gegend unsicher machen! Ich bin Ordolath, und ich verbinge hier mein Forschungssemester... Ihr wisst, manchmal ist es schön, dem Gedränge und Hochbetrieb von Baldurs Tor zu entkommen...~
+@7   = ~Nichts besonderes, Freund, hehe. Es war mein Pech, dass mich meine Kerze vergessen ließ, als ich mich auf diese Reise vorbereitete. Ohne meine Kerze bin ich nicht imstande, mein Tagebuch zu führen oder meine Bücher zu lesen. Die Nächte sind hier sehr dunkel... Ihr könnt Euch nicht einmal vorstellen, was das für solch einen Bücherwurm wie mich bedeutet!~ ~Nichts besonderes, Freundin, hehe. Es war mein Pech, dass mich meine Kerze vergessen ließ, als ich mich auf diese Reise vorbereitete. Ohne meine Kerze bin ich nicht imstande, mein Tagebuch zu führen oder meine Bücher zu lesen. Die Nächte sind hier sehr dunkel... Ihr könnt Euch nicht einmal vorstellen, was das für solch einen Bücherwurm wie mich bedeutet!~
+@8   = ~Also ich habe Euch ein Angebot zu machen. Wenn Ihr ein paar Tage damit verbringen wollt, mir zu helfen und mir meinen kleinen Wachs-Schatz bringt, werde ich Euch so gut belohnen wie ich kann! Und glaubt nicht, dass die Belohnung eine schlechte sein wird! Abgesehen von 2000 Goldmünzen kann ich Euch einen wertvollen Gegenstand anbieten, von dem ich sicher bin, dass er Euch gefällt... Also? Würdet Ihr mir helfen?~ 
+@9   = ~Ausgezeichnet! Vom ersten Augenblick an, als ich Euch sah, schient Ihr vertrauenswürdig zu sein! Mein Haus, junger Freund, ist im nördlichen Teil der Tore nicht weit vom Nördlichen Bezirk. Es ist ein weißes Haus hinter dem blauen Magier-Turm. Ihr könnt es nicht verfehlen. Nun, bitte beeilt Euch. Ich werde Eure Rückkehr ungeduldig erwarten. Bis bald!~ ~Ausgezeichnet! Vom ersten Augenblick an, als ich Euch sah, schient Ihr vertrauenswürdig zu sein! Mein Haus, junge Freundin, ist im nördlichen Teil der Tore nicht weit vom Nördlichen Bezirk. Es ist ein weißes Haus hinter dem blauen Magier-Turm. Ihr könnt es nicht verfehlen. Nun, bitte beeilt Euch. Ich werde Eure Rückkehr ungeduldig erwarten. Bis bald!~
+@10  = ~Also, worauf wartet Ihr? Beeilt Euch bitte und bringt meine Kerze zurück!~ 
+@11  = ~Wunderbar! Ihr habt meinen tief empfundenen Dank! Hier ist die Belohnung, die ich Euch versprach! Ich muss mich jetzt auf den Weg machen.~
+@12  = ~Oh, ja, ja... Es tut mir leid wegen dieser Überraschung. Bitte nehmt meine Entschuldigung an, mein Freund, dass ich Euch einer Gefahr ausgesetzt habe, deshalb hoffe ich, dass meine Geschenke genug Belohnung für Eure Anstrengungen sein werden. Keine Worte mehr, ich muss jetzt gehen. Gebt auf Eure Sicherheit acht!~ ~Oh, ja, ja... Es tut mir leid wegen dieser Überraschung. Bitte nehmt meine Entschuldigung an, meine Freundin, dass ich Euch einer Gefahr ausgesetzt habe, deshalb hoffe ich, dass meine Geschenke genug Belohnung für Eure Anstrengungen sein werden. Nicht mehr Worte, ich muss jetzt gehen. Gebt auf Eure Sicherheit acht!~
+@13  = ~Reisende sind hier tatsächlich selten anzutreffen, aber kürzlich erschienen des öfteren Fremde und gewaltbereite Wesen aller Art. Was kann ich für Euch tun?~ 
+@14  = ~Reisende sind hier tatsächlich selten anzutreffen. Die Gerüchte brodeln angesichts der Schwierigkeiten im Süden. Was kann ich für Euch tun?~
+@15  = ~Es tut mir leid. Ihr seid hier nicht willkommen; um genau zu sein, seid Ihr einfach überflüssig. Es ist höchste Zeit zu sterben, ihr wehleidigen Bälger!!!~ 
+@16  = ~Mein Verhalten tut mir leid, aber die Dinge stehen jetzt wirklich schlecht. Kürzlich starb ein enger Freund von mir in Baldurs Tor. Sein Name war Hasdar. Ich stellte ihn an, um einige Informationen zu bekommen, und jetzt hat die Sache ihn dahingerafft.~
+@17  = ~Ihr solltet Euch schämen, unschuldige Leute zu töten. Aber andererseits war er nicht wirklich mein Freund, nur jemand, den ich anheuerte, um einige Artefakte für mich wiederzubeschaffen. Ich bezahlte das Dreifache dessen, was sie wirklich wert sind. Schicksal. Wenn wenigstens Ihr im Stande wäret, ihn zu ersetzen, wäre ich äußerst dankbar. Ich kann Euch ebenso gut bezahlen wie ihn.~
+@18  = ~Nun, passt auf. Ich suche nach zwei Gegenständen, tatsächlich genügt auch einer. Ich brauche jemanden, der sie für mich holt. Ich kann ausreichende Bezahlung anbieten.~
+@19  = ~Das erste Artefakt ist ein magischer Bogen, einst der Stolz von Elfen-Soldaten aus zergangenen Zeiten. Jedoch wurde ich unterrichtet, dass Fey'doch, ein Elf, der sich nördlich von hier im Elfenwald einquartiert hat, in den Besitz dieses wertvollen Gegenstandes gelangt ist. Vielleicht könntet Ihr ihn zurückkaufen. Ich werde alle Eure Ausgaben erstatten und 2500 Goldmünzen dazulegen.~ 
+@20  = ~Das zweite Artefakt - eines, das ungleich wertvoller ist und für Magier meiner Art unschätzbar, ist das Große Buch des Unwissens. Man sagt, dass es in der Sammlung von Kerzenburg enthalten ist, aber wahrscheinlich ist die einzige Person, die nachweislichetwas weiß, Lobar, der Eigentümer der Leuchtenden Laterne im Hafenbezirk von Baldurs Tor. Ihm eine gediegene Summe Gold anzubieten wird sicherlich sein Gedächtnis "auffrischen". Natürlich kümmern mich die Kosten nicht, und ich werde Euch zusätzlich 5000 Goldmünzen geben.~
+@21  = ~Und Eure Belohnung sollt Ihr haben! Es scheint, dass dies das Ende unserer Zusammenarbeit sein wird, die Sachen gehören endlich mir - nichts für ungut, es ist rein geschäftlich... STERBT, ihr Bälger!~ 
+@22  = ~Habt Ihr über mein Angebot nachgedacht? Interessiert Ihr Euch dafür?~ 
+@23  = ~Es scheint, dass das Böse in Euch erwacht, heh, heh, heh... Dass ist sogar besser, mmmm? ...~
+@24  = ~So, es ist vollbracht. Das Große Buch des Unwissens ist zurück bei seinem rechtmäßigen Eigentümer. Und der Eigentümer ist sehr zufrieden.~ 
+@25  = ~Habt Ihr nach meinen Gegenständen gesucht? Es kann einige Zeit dauern, wenn ich eine Vermutung wagen darf...~
+@26  = ~Wir haben bereits diesen magischen Bogen. Wie viel ist er Euch wert?~
+@27  = ~Ahhhh, das ist sehr nett. Es ist gut zu sehen, wie die Finsternis in Euch zunimmt, heh, heh... Wir werden später zu Eurer Belohnung kommen.~
+@28  = ~Was auch immer...~
+@29  = ~Wunderbar! Jetzt fort mit Euch, um den magischen Bogen zu finden, und wenn Ihr zurückkehrt, werden wir uns um diese Belohnung kümmern... heh, heh...~
+@30  = ~Sehr gut, wir werden zurückkehren, nachdem wir den Bogen wiederbekommen.~
+@31  = ~Wir nehmen die Aufgaben an, aber ich werde Euch nichts versprechen.~
+@32  = ~Der Magier Haeball, der im Turm im Larswald südöstlich des Gasthofs Zum Freundlichen Arm lebt, sandte uns aus mit dem Auftrag, das Große Buch des Unwissens und einen magischen Bogen aus dem Besitz eines Elfen zu beschaffen, der weit im Norden lebt. Wenn wir genug Glück haben, finden wir beides und verdienen gutes Geld...~
+@33  = ~Wir haben bereits das Große Buch des Unwissens. Wie viel ist es Euch wert?~
+@34  = ~Der Magier Haeball, der im Turm im Larswald südöstlich des Gasthofs Zum Freundlichen Arm lebt, sandte uns aus mit der Aufgabe, einen magischen Bogen aus dem Besitz eines Elfen zu holen, der weit im Norden lebt. Wenn wir genug Glück haben, finden wir ihn und verdienen gutes Geld...~
+@35  = ~Wir haben bereits diese beiden Gegenstände bei uns.~
+@36  = ~Ich habe eine Gelegenheit für mutige Pfadfinder wie Euch. Ich kann Euch empfehlen, die Felder der Toten zu meiden. Es ist seit Ewigkeiten der angestammte Wohnsitz für Orks und andere verlorene Seelen, aber ihre Anzahl nimmt in letzter Zeit unerwartet zu. Ihre Tätigkeiten betreffen sogar uns. Ständig verschleppen sie Leute von hier... Meine Nachbarin, Yness, ging nach Ulgoths Bart, um Hilfe zu holen, da ihr Mann der letzte war, der verschwand. Sie muss jetzt seit einer Woche dort sein. Vielleicht kam sie sogar nie dort an... Nun, ich kenne Eure Pläne nicht, aber seid auf der Hut.~
+@37  = ~Danke dafür, dass Ihr uns von jenen Zombies und allem möglichen befreit habt. Wir alle wissen es wirklich zu schätzen.~
+@38  = ~Eine Zombie-Plage.
+
+Ich tötete zwanzig Zombies, die um Wenrics Farm herumzogen. Ich weiß nicht, wo sie herkamen, aber sie sollten ihn nicht weiter stören.~
+@39  = ~Bitte, Reisende, verzeiht mir, dass ich es wage, Euch zu stören, aber das ist keine spaßige Sache.~
+@40  = ~Ich weiss, dass Ihr wahrscheinlich kein Interesse daran habt, aber wo sonst können meine Frau und ich Hilfe suchen?~
+@41  = ~Ich reiste mit meiner Frau nach Elthurel, als unsere Karawane von einer Horde Orks angegriffen wurde. Wir flohen in Panik mit allen anderen. Leider reisten unsere Kinder - Falton und Vanessa - mit uns. Es ist eine Schande für uns, aber in dem Kampfgewirr verloren wir die Spur unserer Kinder... Wir kehrten so bald wie möglich zurück, fanden aber kein Zeichen der Karawane oder unserer Kinder... Einer der verwundeten Wächter sagte uns, dass die Orks, als sie die Gefangenen fortschafften, über Fealn Datoon redeten... Das ist ein alter Name eines Landes, nördlich von hier gelegen... die Felder der Toten. Wir wissen nicht, wie man dort hinkommt, ganz zu schweigen davon, wie man die Orks besiegt und unsere Kinder zurückbekommt.~
+@42  = ~Danke. Wir schätzen wirklich Eure Hilfe, aber wir können Euch im Gegenzug nur dieses Geschenk anbieten... Wir müssen jetzt zu unseren Kindern gehen...~
+@43  = ~Seid gegrüßt, gute Abenteurer! Kann ich mit Euch bitte einen Moment sprechen?~
+@44  = ~Ich bitte um Entschuldigung dafür, Euren Weg zu stören, aber ich bin verzweifelt. Mein Mann wurde von Orks aus dem Norden entführt, und meine Bitten halfen überhaupt nichts... Sie kamen zu unserer Farm genau im Norden von Wyrms Überfahrt und schleppten ihn mit! Ich weiß nicht, warum sie ihn in ihre Ansiedlung in den Feldern der Toten brachten... Ich bitte Euch um Hilfe, bitte! Ich kam hier vor einer Woche an, um Hilfe zu suchen, aber keiner will von meinem Kummer hören...~
+@45  = ~Oh, nein... Ihr wart meine letzte Hoffnung, und jetzt habe ich niemanden... Geht weg und lasst mich mit meinem Kummer alleine...~
+@46  = ~Die Götter segnen Euch! Danke! Die Reise durch die Ödlande zu den Feldern der Toten ist sehr schwierig, aber mit Pandris - meinem Mann - gelangten wir aus dem Norden direkt durch diese Wildnis und ließen uns im Norden von Baldurs Tor nieder. Der Ort, den ich auf dieser Reise sah, wo sie wohl festhalten, ist ein Tag von hier entfernt oder vielleicht ein wenig länger, wenn Ihr von den Farmen im Südosten beginnt. Ich werde hier auf Nachricht warten. Rettet ihn bitte...~
+@47  = ~Hallo! Und wen haben wir hier?... Schade, Ihr seid nicht die Person... Erzählt mir dann, was bringt Euch her?~
+@48  = ~Ha, ha, der alte Bengel lief so schnell davon, dass er seine Schuhe vergaß? Das ist gut! Es muss etwas wirklich Wertvolles gewesen sein, da er ja irgend jemanden bitten musste, sie an seiner Stelle zu bringen... Ist egal... Ich sorge mich nur über diesen bösen Magier. Er hätte nicht entkommen sollen! Der Rote Mages vergisst nicht so leicht... Genug geredet! Ich habe Lust, meine Wut abzureagieren. Und Ihr seht wie ein sehr handliches Ziel aus! Ha ha ha. Wenn wir fertig sind, erzählen Eure Schädel mir alles, was ich wissen muss. Ha ha ha!~
+@49  = ~Nicht so schnell, meine lieben Freunde! Ihr werdet nirgendwohin hingehen, denke ich. Wohin auch immer ich gesandt werde, hinterlasse ich keine Spuren meiner Anwesenheit! Ha ha ha.~
+@50  = ~Beeilen~
+@51  = ~Kann ich Euch behilflich sein?~
+@52  = ~Ahh! Das ist Wahnsinn!~
+@53  = ~Das ist Wahnsinn! Wir haben kein Verlangen, miteinander zu kämpfen!~
+@54  = ~~
+@55  = ~Ich habe nicht mehr zu sagen.~
+@56  = ~Ihr habt meine Geschichten gehört. Nichts hat sich geändert, seitdem wir zuletzt sprachen.~
+@57  = ~Verlasst mich! Ich möchte allein sein!~
+@58  = ~Unhold!! Er ist nur ein Kind! Hilfe!!~
+@59  = ~O weh, wir verfügen normalerweise TATSÄCHLICH über eine stattliche Anzahl an Wächtern. Die Mehrheit wurde jedoch nach Süden entsandt, um die Raubüberfälle entlang der Küstenstraße zu bekämpfen. Danach begannen unsere eigenen Probleme. Zwei unserer letzten Wächter sind unter den Vermissten, und der Hauptmann selbst wurde gestern zuletzt gesehen. Wir haben einen Ersatz, Eldod, an seiner Stelle ernannt, und Ihr könnt ihn vor der Burg finden.~
+@60  = ~Ich kenne... kannte sie alle, obwohl ich... viel mehr einen von ihnen kannte. Wir waren... wir... Montgomery und ich waren... Ich kann nicht darüber sprechen! Daran zu denken, ihn zu verlieren... das ist nicht gerecht, wisst Ihr... Wir stritten gestern Nacht und verließ mich in Rage. Solche Verbindungen werden... in unserem Orden missbilligt, aber jetzt ist er weg und ich... Bitte... findet ihn. Findet sie alle, und bringt sie sicher nach Hause.~
+@61  = ~Ich... verstehe. Bitte, dann nehmt wenigstens das. Nur jemand, der außer sich ist, könnte vielleicht hinter dem Verschwinden und diesem heimlichen Angriff auf die Zitadelle stecken, also verwendet dies, wenn Ihr meint, dass die Zeit gekommen ist. Es wird Euch helfen. Ich werde zwar Schwierigkeiten bekommen, wenn es entdeckt wird, aber Euer Erfolg ist entscheidend. Ich fürchte um das Leben des tapferen Satos, der an Stelle unseres Hauptabts eingesprungen ist. Es wäre am besten, seine Sicherheit zu gewährleisten. Ich weiß nicht, was wir tun würden, verlören wir jetzt auch ihn!~
+@62  = ~Aus Taktgefühl gegenüber dem Gründer der Zitadelle, Monoach, haben wir eine unsere Reliquien dort sicher verbewahrt - es ist ein heiliges Symbol von Helm. Aber wir wissen nicht, wo der Schlüssel ist. Es wird gesagt, dass Monoach ihn seinen vertrauten Freunden irgendwo weit weg zur Verwahrung gab... Sie wohnen auf einer Insel weit weg im Nordwesten... Es ist wirklich schwierig zu sagen. Vielleicht, wenn Ihr von Ulgoths Bart aus nördlich entlang der Küste reist, könntet Ihr jemanden ausfindig machen, der die Position kennt und Euch eine Überfahrt dorthin anbietet.~
+@63  = ~Der Priester des Helm im Tempel sagte, dass Ihr etwas über den verschlossenen Altar dort wüsstet. Könntet Ihr uns darüber aufklären?~
+@64  = ~Ich will jetzt nicht über den Altar mit Euch sprechen. Kommt zu mir, sobald Ihr herausgefunden habt, was in der Zitadelle vor sich geht und jeder wieder in Sicherheit weilt. Dann besprechen wir dies.~
+@65  = ~So, die Zitadelle ist wieder sicher. Das sind sehr gute Nachrichten. Womit kann ich Euch helfen?~
+@66  = ~Lasst uns mit unseren Schwierigkeiten alleine!... Wir haben bereits genug Eindringlinge! ...~
+@67  = ~Danke, das war wirklich großzügig von Euch, jene Bestien für uns auszumerzen. Vielleicht werden wir jetzt endlich imstande sein, zu unserer Fischerei zurückzukehren.~
+@68  = ~Ihr seid zurückgekehrt... aber ich kann sagen, dass Ihr noch nicht erfolgreich wart... andere haben es vorher versucht und ebenso versagt...~
+@69  = ~Diese Ungeheuer sind ziemlich furchterregend, stimmt das?~
+@70  = ~Wir sind gerettet! Erstaunlich! Ich dachte, dass es letzten Endes so kommen wird, dass jene Feuerungeheuer uns zwingen, zu verhungern... Wir begrüßen, was Ihr tatet...~
+@71  = ~Wenn Ihr könnt... Wir haben hier seit Jahren gefischt, aber seit den letzten paar Wochen können wir uns nicht in die Nähe unserer Boote wagen. An der Nordseite unserer Bucht erschienen Ungeheuer... Sie spucken Feuer und töten jeden, der der Bucht nahe kommt. Und jetzt, erst kürzlich, hat ein Stamm von Sirenen an den Küsten aufgeschlagen, ganz in der Nähe, wo wir auch unsere Fischerboote landen. Könnt Ihr sie bezwingen?~
+@72  = ~Wie können wir Euch das jemals zurückzahlen?~
+@73  = ~Wir wagen uns nicht so weit hinaus... Aber Nadalin war vor einiger Zeit hier. Er segelte für gewöhnlich aufs offene Meer und erzählte uns von einer Insel von Echsen, ähnlich denjenigen in der Höhle, aber jene hatten kein Feuer gespuckt... Ihr müsstet Nadalin fragen. Jetzt, da die Ungeheuer aus unseren Fischgründen weg sind, kommt er vielleicht zu uns zurück... Ich weiß, er mochte seine Aufgaben sehr gern, aber er flüchtete, als diese... diese Salamander erschienen.~
+@74  = ~Wir trafen Nadalin bereits in Baldurs Tor! Ich bin sicher, dass er glücklich sein wird, zu hören, dass die Ungeheuer besiegt wurden, so dass er zu seinen Aufgaben zurückkehren kann.~
+@75  = ~Wir beseitigten das Problem, dass die Fischer entlang der Nordküste mit den Sirenen und Feuersalamandern hatten. Der Hauptmann des Dorfes sagte, dass es in der Nähe die Insel gibt, nach der wir suchen. Er sagt, der Weg auf die Insel sei nur dem Fischer Nadalin bekannt, der aus dem Dorf vor einer Zeit floh, als die Sirenen und Feuersalamander das erste Mal erschienen. Wir ihn suchen.~
+@76  = ~Ihr, Vorhut, wagt, zu Humbaba zu kommen?... Ihr seid verrückt geworden, stimmt's?~
+@77  = ~Natürlich bin ich nicht der einzige, der Euch tötet. Humbaba hat Freunde dabei, und hier sind sie jetzt... Humbaba ist bereit zu kämpfen!~
+@78  = ~Welche Wut Ihr habt! Humbaba ist bereit zu kämpfen - Vorhut ist dumm - Vorhut ist bereit zu sterben...!~
+@79  = ~Humbaba sagt, dass die Winzlinge weggehen sollten - oder Humbaba wird Spass haben, sie zu töten!~
+@80  = ~Ihr habt Humbaba überlistet...! Humbaba ist wütend...! Humbaba tötet die Vorhut jetzt...!~
+@81  = ~Oogoor fühlt das Blut seines Bruders an Euren Händen! Oogoor ist wütend, und seine Begleiter töten die dumme Vorhut!~
+@82  = ~Ihr habt meine Warnung ignoriert. Vielleicht habt Ihr bezweifelt, dass es Ernst ist. Ich sage Euch jetzt, dass das unser Lebensraum ist, und Ihr seid nicht willkommen! Jetzt werden Sie beseitigt!~
+@83  = ~Die Möwen sind noch schöner als die Winde, auf denen sie reiten, oder nicht?... Ich werde eines Tages eine sein, wisst Ihr. Ich sehne mich danach, mehr als nach allem anderen. Wenn es nur einen Weg gäbe, meinen Geist freizulassen...~
+@84  = ~Kennt Ihr die Geschichte von Monoach?... Das ist gut. Was Ihr nicht wisst ist, dass Monoach gegen einen Kult kämpfte. Er verabscheut die Schwarze Hand und ihren Wunsch, Bhaal zurückzubringen, und solange ihr neuer Tempel besteht, gibt es keinen Weg, wie ich Euch helfen kann. Kommt zurück, wenn ihr Führer tot ist. Ich werde wissen, ob es erledigt ist. Ich weiß nicht, wo der Tempel der Schwarzen Hand liegt, aber die Anzahl ihrer Agenten nimmt zu. Ich habe gehört, dass eine Splittergruppe Ulgoths Bart unterläuft, und es gehen seltsame Dinge auf den Feldern der Toten vor sich. Vielleicht könnt Ihr ihn dort ausfindig machen.~
+@85  = ~Wer auch immer Ihr seid, danke - Ihr kamt gerade rechtzeitig... sicher hätten sie uns am Spieß... diese... diese Bestien... Ich glaube, meine Frau - Yness - hat Euch gesandt...?~
+@86  = ~Sicherlich scherzt Ihr, denn Eure Absicht klingt wahnsinnig, aber vielleicht habt Ihr Recht, und die Welt ist verrückt geworden...~
+@87  = ~Oh! Vielen Dank dafür, dass Ihr mich gerettet habt! Ich habe nichts anzubieten, aber vielleicht wird es diese Information tun. Ich habe die Orks reden  gehört, als ich gefangenern gehalten wurde. Ich denke, dass sie hierher gekommen sind, weil ein großer Ork-Führer irgendwo hier in der Nähe begraben ist. Sie suchen nach einigen Artefakten, die in den Nebeln der Zeitalter verloren gingen, um die Grabstätte aufzuschließen, aber bis jetzt ohne Erfolg. Schamanen haben Gruumsh Opfer gebracht, um seine Zeichen herbeizurufen. Sie versuchen auch, eine alte Kapelle im Holz der Toten südlich von hier zu betreten, aber ebenso erfolglos...~
+@88  = ~Sie suchen auch nach einigen Anhängern des Kults, mit denen sie Steit haben. Ich hörte einen Namen, etwas wie Haanibal... aber ich könnte mich irren... Ich werde Euch einen Brief schreiben. Gebt ihn bitte meiner Frau. Jetzt sollte ich nach Hause gehen..., aber bis jemand das Geheimnis der Orks löst, werden die Farmen nicht sicher sein. Sie sind selbst ohne die Orks nicht sicher. Danke noch einmal! Viel Glück!~
+@89  = ~Reisende mitten in der Wildnis?! Alle, die sich um ihre Gesundheit sorgen, bleiben normalerweise auf der Straße nach Elthurel. Was führt Euch hierher?~
+@90  = ~Die Felder der Toten waren noch nie ein ruhiger Platz, und um imstande zu sein, es hier länger zu ertragen als dort, erfordert viel Ausdauer. Jetzt, mit der Ork-Plage, schlimmer als man sich erinnern kann, bin ich drauf und dran, ebenfalls wegzuziehen. Es gibt ein Heiligtum eines Orks hier. Sie glauben, dass es eine verborgene Macht beherbergt, und sie suchen verzweifelt nach dem Schlüssel, um hineinzugelangen und sie zu erlangen. Nach dem, was ich belauschen konnte, schämen sie sich, weil sie noch nichts gefunden haben. Das Heiligtum wird von ihren Priestern beschützt. Es ist hier irgendwo in der Nähe westlich von uns... Gehabt Euch wohl!~
+@91  = ~Hier in der Gegend? Ich würde mich an Eurer Stelle nicht allzu sehr beunruhigen, außer Ihr und greift ohne Sinn und Verstand alles an, was Ihr seht. Es streifen jetzt viele durchs Land. Die Felder der Toten sind ein vergessener Ort, obwohl sie nur ein paar Tage von Baldurs Tor entfernt liegen. Sogar Elfen kommen nur selten hierher, obowhl die Länder von Sy'Tel'Quessir nicht unweit im Norden angrenzen. Hier machen die Gespenster die Regeln und in letzter Zeit die Orks. Sie sind rasend, weil sie verzweifelt nach etwas suchen.~
+@92  = ~Ich hatte nicht vor, Euch zu verscheuchen. Meine Worte sind eine einfache Warnung vor den Gefahren und bedeuteten nichts weiter. Gelegentlicher Plausch ist sicher willkommen, aber vielleicht ist heute nicht der beste Tag dafür. Die Orks sind hier und in den Feldern der Toten zur Plage geworden, seitdem sie begannen, nach etwas zu suchen. Sie verhielten sich in letzter Zeit ziemlich aggressiv gegenüber jedem, der nicht weiß, dass er zu nahe an ihrer Territorium kommt... Ihr solltet Eure Waffen bereit halten, so wie Ihr reist.~
+@93  = ~Ihr würdet gut daran tun, Eure eigenen Grenzen zu kennen. Es kümmert mich nicht, ob Ihr ein großer Schwertfechter oder ein starker Zauberer seid, trotzdem werdet Ihr in Streifen geschnitten in der Mittagssonne enden, wenn Ihr nicht die rechten Vorsorgen trefft. Orks schwärmen umher, weil sie glauben, dass es hier irgendwo ein Heiligtum ihres früheren Anführers gibt. Ich konnte sie belauschen, als sie an ihren Feuern sprachen, und ich habe keinen Wunsch, länger hier zu bleiben.~
+@94  = ~Wartet, Reisende! Zufällig *oder nicht* - ich habe Euch belauscht, als Ihr mit Shaella spracht, oder wie Ihr es vorzieht, sie zu nennen, Elnaedra. Interessiert Ihr Euch wirklich für den Fund dieses seltsamen Buches?~
+@95  = ~Shaella weiß, worüber sie spricht - oder eher sagt, was sie noch weiß. Sie hat dieses Buch gesehen, und Ihr könnt seinen Einfluss auf sie sehen. Meine Aufgabe ist es, dieses Buch zu finden und es unerreichbar für Leute zu machen, die es nicht besser wissen und dasselbe Schicksal mit Shaella teilen könnten.~
+@96  = ~Wenn es auf diese Weise sein muss, mein ganzes Leben lang habe ich Geld gesammelt, um dieses Buch zu bekommen. Ich kann es Euch geben, wenn Ihr mein Angebot akzeptiert.~
+@97  = ~Wenn es nur so einfach wäre. Ich kann mich nicht mit demjenigen treffen, der einige Kenntnisse über dieses Buch hat. Wir waren einmal Freunde, aber eine Frau kam zwischen uns. Ich würde es wirklich vorziehen, ihn nicht zu treffen. Und dasselbe gilt für ihn.~
+@98  = ~Also habt Ihr es gefunden. Der Grund meiner lebenslangen Suche. Es ist Zeit für Eure Belohnung.~
+@99  = ~Da seid Ihr wieder. Es ist ein Vergnügen, Euch zu Gast zu haben, das steht fest.~
+@100 = ~Wir sind geschäftlich hier. Wir interessieren uns für ein bestimmtes Buch.~
+@101 = ~Und ist es ein Vergnügen, zurückzukehren.~
+@102 = ~Wer hat mich... herbeigerufen? Ahh, Humanoiden! Die widerlichen Wesen, die wie Ungeziefer auf dem Boden kriechen...~
+@103 = ~Das ist normalerweise gar nicht unser Stil, aber haben wir nicht seit 500 Jahren hier gelebt und überhaupt nichts gelernt... Und wir wollten hier nicht lange bleiben... Ihr könnt uns zurücksenden... Aber... was wird dazu benötigt? Der Leichnam... Leichnam desjenigen, der uns beschworen hat... Dieser Wurm wird benötigt...~
+@104 = ~Haaeebaaallsszzss .... haszs ...~
+@105 = ~Ihr wagt es, unser Versprechen anzuzweifeln? Ihr seid im Recht, das zu tun...~
+@106 = ~Oh gut... wir sind häufig pingelig und boshaft... es ist ein Familiencharakterzug... Ein Bogen... wir interessieren uns für einen Bogen. Er ist im Besitz eines Elfen, dessen Familie vor langer Zeit an unserer Kette zerrte... Ja... wir wollen den Bogen von Hauptmann Sy'tell'Quessir... Fey'doch! Dieses Mal werden wir unseren Besuch hier nicht weiter ausdehnen... Tötet Fey'Doch und holt uns seinen Bogen...~
+@107 = ~Humanoiden sind einfach dumm... Und nichts wird das ändern...~
+@108 = ~Ein Bogen und Rache... Ich warte auf beides...~
+@109 = ~Ist Euer Name vielleicht Haeball?~
+@110 = ~Das ist einer meiner vielen Namen, ja. Wie kann ich Euch helfen?~
+@111 = ~Einige Wesen, denen wir südlich von hier begegneten deuteten an, dass Ihr etwas über den Magier wissen könntet, der sie hier auf diese Ebene rief. Sie weigern sich, fortzugehen, es sei denn, ich bringe den Magier zu ihnen.~
+@112 = ~Ahhhh, hah hah hah, ja.... das Magierlein... wer rief sie herbei, sagtet Ihr? Nun, wir alle wollen etwas, mich selbst eingeschlossen. Ich werde mit Euch ein Geschäft betreffsdieses Magiers machen, wenn Ihr wollt.~
+@113 = ~Nun, wenn ich irgendwelche Fortschritte mit dieser Suche machen will, habe ich keine andere Wahl.~
+@114 = ~Haeball, könnte ich Euch eine Frage stellen?~
+@115 = ~Eine Menge unleserlicher Informationen sind auf das Papier gekritzelt, aber es ist möglich, einige Teile zu lesen:
+
+"...schließlich. Hasdar bringt immer gute Nachrichten. Jetzt, da die Arbeiten am Tempel fertig gestellt sind, um ihn gegen irgendwelche Eindinglinge aus dem Scharfzahnwald zu schützen, können sich meine Brüder auf das wahre Schicksal der Schwarzen Hand konzentrieren...................... mit Balors Kult................... notwendig."
+
+"Warum zum Teufel versuchte ich, zu jenen versunkenen Ruinen im Süden zurückzugehen, die einmal meine waren?... in dem Dreck ausgerutscht... jetzt stelle ich fest, dass er verloren ist!... ohne diesen Schlüssel kann ich nicht einmal meinen eigenen Schreibtisch öffnen... So schön der Ort auch ist, er ist nicht sicher... Ich muss wieder dorthin gehen, um ihn zu finden... wenn nur dieses verdammte Wasser nicht wäre... der Mann hat keinen anderen Platz zu leben als Sümpfe..."
+
+"..dumme verdammte Orks, die im Holz der Toten verrückt werden... versuche, einen Durchgang zu finden nach... aber nur frühere Druiden unserer Bruderschaft kennen die richtige Kombination von Schlüsseln, um die Gruft zu öffnen, und wir haben jeden Schlüssel versteckt.... ohne den...... Dolch und Ring von ........ nie wieder Zugang erlangen............. in den Tempel des Steinkreises..."
+
+"...... Shaella ist tatsächlich wahnsinnig..."~
+@116 = ~Danke, wer auch immer Ihr seid. Ich bin auf einer wichtigen Mission nach Ulgoths Bart, und diese Bastarde hatten mich gerade festgenommen... Ich weiß nicht, was geschehen wäre, wenn Ihr nicht rechtzeitig gekommen wäret...~
+@117 = ~So wisst Ihr bereits alles über den Kult... Ich schaffte es nicht, rechtzeitig herzukommen wegen jener verdammten Orks... jetzt wartet nichts außer Unannehmlichkeiten auf mich in der Konklave... oder sollte ich sagen... der Tod...~
+@118 = ~Wir sind ... der Kult der Schwarzen Hand ist eine Zusammenkunft von Kriegern und Magiern... geführt von Draagis... gar mächtig und ein Experte der alten Rituale. Deshalb interessiert er sich für verschiedene Artefakte und war mit den Anhängern des Baalor Kults im Kontakt. Wir planten, einen noch stärkeren Dämon herbeizurufen - den Prinz von Baalor. Aber ohne jenes von Traceas Kult verwendete Siegel wird die Zusammenarbeit zwischen unseren Kulten nicht zustande kommen... Ich muss jetzt verschwinden. Mir wäre lieber, der Kult würde nicht herausfinden, dass ich schlechte Nachrichten überbringe...~
+@119 = ~Wenn Ihr sie finden wollt, geht in den Scharfzahnwald... dann weiter nach Osten und ein bisschen nach Norden. Aber ich würde an Eurer Stelle kein warmes Willkommen erwarten...~
+@120 = ~General Ghotals Zweihänder-Schwert~
+@121 = ~Dieses große Schwert wurde einst von den Händen Ghotals, einem berühmten Anführer der Ork-Horden im Norden geschwungen. Damit war er imstande, gegen Luskan, Targos und andere Städte einschließlich Niewinter zu rücken. Die Berühmtheit des Schwertes reichte aus, die meisten Verteidiger unwillig zu machen, bevor auch nur Art organisierten Widerstandes aufgebaut wurde. Aber Ghotal ging zu weit, als Targos schließlich erobert und zerstört wurde. Die vereinten Heere der Elfen aus Everaska und anderer nördlicher Städte stellten den General und vernichteten die meisten seiner Legionen. Ghotal selbst entwich dem Schlachtfeld, wurde jedoch tödlich verwundet. Seitdem ward nie wieder etwas von ihm gehört oder gesehen, obwohl die orkische Legende sagt, dass er bis auf den heutigen Tag lebt und nur auf die Gelegenheit wartet, Faerun noch einmal mit Chaos und Verwüstung zu überziehen.
+
+SPEZIFISCHE EIGENSCHAFTEN:
+
+Schaden: 1W12 +5
+ETW0: -5
+Besondere Fähigkeiten:
+40% Chance, das Ziel bei erfolgreichem Treffer zu versteinern
+Schadensart: aufschlitzen
+Gewicht: 12
+Geschwindigkeit: 9
+Waffenfertigkeit: Zweihänderschwert
+Waffentyp: Beidhändig
+Mindeststärke: 13
+
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Mönchen
+ Tiermeistern~
+@122 = ~Erneut willkommen, mein Freund. Wie kann ich Euch helfen?~ ~Erneut willkommen, meine Freundin. Wie kann ich Euch helfen?~
+@123 = ~Könntet Ihr uns zur Salamander-Insel bringen?~
+@124 = ~Sicherlich. Lasst uns dann gehen.~
+@125 = ~Es ist vollbracht. Gut.~
+@126 = ~Wer kommt zu Meandar? Monoach sandte Euch nicht, aber Ihr wisst, dass ich es bin, nach dem Ihr sucht?... Wieso?~
+@127 = ~Meandar weiß, dass jemand kommen wird, der eine Antwort sucht... Hat Meandar unrecht?~
+@128 = ~Kolchear weiß bereits, dass Sie hier seid, da die Wesen aus der ersten Ebene ihn piesacken... Ihr könnt damit rechnen, auf ihn zu treffen, sobald Ihr unser Haus verlasst. Kolchear ist gefährlich, also viel Glück und gebt gut auf Euch Acht. Kommt später hierher zurück, und ich gebe Euch den Schlüssel... wenn Ihr noch am Leben seid...~
+@129 = ~Eissalamander mögen einander nicht, aber sie bekämpfen sich nicht... Sie besitzen keine Waffe, die einen anderen Salamander besiegen könnte...~
+@130 = ~Meandar ist betrübt, dass seine Brüder weg sind, aber er respektiert den Mut und die Tapferkeit der Neulinge. Hier ist der Schlüssel, den Ihr sucht. Schaut genau auf die Art, wie er beherrscht wird, weil sich ein großes Übel dahinter verbirgt... alt und grausam...~
+@131 = ~Meandar und Monoach waren Freunde... vor langer Zeit. Aber Monoach erzählte uns niemals von dem Gebrauch des Schlüssels noch dem Weg, wohin seine Pfade führen... Aber Monoach hätte uns den Schlüssel nicht gegeben, wenn er nicht Angst vor seinem Schicksal hätte. Meandar weiß nichts weiter.~
+@132 = ~Es ist dumm, ich weiß, aber es fühlt sich einfach nicht richtig an ohne meinen glücklichen Pfeil. Dieser eignet sich prima für alles was zähe Haut hat.~
+@133 = ~Charleston Nib, den wir retteten, nachdem seine Arbeiter in Gruft Kozahs wahnsinnig wurden, bot uns eine weitere Suche an. Es gibt einen bewachten Eingang auf der Feuerwein-Brücke, die in einen neuen Kerker führt. Jedoch hausen "Dämonen" dort drinnen, und er ist außer Stande, sie zu erforschen. Er hat uns gebeten, sie für ihn zu beseitigen.~
+@134 = ~Haut ab, Ihr alter komischer Kauz!~
+@135 = ~Das alles ist wirklich nett, aber was in den neun Höllen wollt Ihr von mir?~
+@136 = ~Ein fremder Mann, Ordolath, den wir in der Wildnis westlich von Nashkel trafen, bot uns 2000 Goldmünzen und einen wertvollen Gegenstand dafür an, dass wir ihm seine Kerze aus Baldurs Tor bringen. Er ließ sie in seinem Haus im Nordbezirk zurück, einem weißen Haus hinter einem blauen Turm.~
+@137 = ~Ich habe keine Zeit, um sie für solch dumme Versuche zu verschwenden, geht jetzt weg.~
+@138 = ~Unglücklicherweise haben wir noch keine Gelegenheit gehabt, sie wiederzubekommen...~
+@139 = ~Ihr seid höchst willkommen. Seid vorsichtig auf Eurer Reise.~
+@140 = ~Wir haben Ordolath die Kerze aus seinem Haus in Baldurs Tor gebracht, und getreu seinem Wort gab er uns vor der Abreise einen schönen Stab aus seiner Sammlung. Unglücklicherweise scheint er vergessen zu haben, dass er versprach, uns ebenso 2000 Goldmünzen für unsere Schwierigkeiten zu zahlen. Wir müssen küftig nach ihm Ausschau halten und ihn daran erinnern, wenn wir ihm jemals wieder begegnen...~
+@141 = ~Wir brachten Ordolath die Kerze; er gab uns unsere Belohnung und verschwand in die Nebel. Es scheint so, dass kaum, dass man jemanden kennen lernt, dieser dann auch schon für immer weg ist. Eine jämmerliche Sache! ...~
+@142 = ~Habt Ihr irgendetwas zu verkaufen? Lasst es uns genauer ansehen.~
+@143 = ~Haeball, ein Magier, der in Larswald lebt, bietet einige auserlesene Gegenstände zum Verkauf.~
+@144 = ~Nun gut...! Wir statteten Haebal einen freundlichen Besuch ab, und fanden Waffengewalt und schwarze Magie... Was könnte dieser Haeball zu verbergen haben? Wir müssen eine Durchsuchung seines Turms vornehmen.~
+@145 = ~Und der zweite Gegenstand...?~
+@146 = ~Und das für unsere 'geschätzten' Arbeiten! Wir latschen unsere Schuhe zu Fetzen durch, und anstatt der versprochenen Belohnung versucht Haeball, uns zu töten! Ich weiß nicht, warum, aber ich habe das Gefühl, dass Haeball nicht das letzte oder einzige Glied einer langen Kette ist...~
+@147 = ~Könntet Ihr wiederholen, was Eure Aufgaben waren? Wir sind jetzt vielleicht interessiert.~
+@148 = ~Nein, haben wir nicht, wir brauchen mehr Zeit, um darüber nachzudenken.~
+@149 = ~Das mag so sein, aber wir haben eines der Artefakte, die Ihr wolltet, und wir verlangen die Belohnung.~
+@150 = ~Ihr scheint wirklich ziemlich zufrieden, aber die "Kosten", um das Buch wiederzubekommen, waren sehr hoch, und auch wir erwarten Entlohnung.~
+@151 = ~Ja, wir haben sie, und jetzt ist es Zeit für uns, entsprechend belohnt zu werden.~
+@152 = ~Gewiss waren wir es, aber wir haben Bedarf an einigen Eurer Waren.~
+@153 = ~Wie Ihr sehen könnt, suchen wir unablässig...~
+@154 = ~Das ist ganz richtig. Erzählt uns, was Euch derart belästigt.~
+@155 = ~Wir waren niemals im Norden von Baldurs Tor, aber Eure Geschichte hat unsere Aufmerksamkeit errregt. Wir werden uns darum kümmern, sobald wir können.~
+@156 = ~In Baldurs Tor trafen wir Magnad und Winorma, die ihre Kinder während ihrer Reise nach Elthurel verloren, nachdem ihre Karawane von einer Gruppe Orks angegriffen wurde. Magnad vermutet, dass die Orks ihre Kinder in die Felder der Toten verschafften, die irgendwo im Norden von Baldurs Tor liegen. Er kennt die genaue Position nicht, schlug aber vor, dass wir nach Ulgoths Bart reisen, um zu sehen, ob wir jemanden finden können, der den Weg dorthin kennt.~
+@157 = ~Wir brachten Yness eine Nachricht von ihrem Mann, den wir aus den Händen von Orks retteten. Sie war sehr zufrieden, aber sie hatte kein Geld, um uns zu entlohnen.~
+@158 = ~Beseitigt Feuersalamander
+
+In Baldurs Tor trafen wir einen freundlichen Fischer, Nadalin. Es sieht so aus, als ob sehr seltsame Dinge im Norden des Dorfes geschehen, wo er lebte. Er behauptet, dass Feuersalamander sein Dorf angegriffen haben und jetzt keiner im Gebiet mehr fischen kann. Ich muss einen Blick auf das Problem werfen, wenn ich dort vorbeikomme.~
+@159 = ~Beseitigt Feuersalamander
+
+Wir erzählten Nadalin, einem Fischer, dass wir die Feuersalamander und Sirenen ausgerottet haben, die sein Dorf plagten. Er kann jetzt in seine Heimat zurückkehren.~
+@160 = ~Ein Bekannter vergaß etwas. Wir wurden gebeten, es ihm zu bringen. Aber er sagte kein Wort von einem Roten Magier, der hier wohnen soll. Befriedigt unsere Wißbegierde - wer könntet Ihr sein?~
+@161 = ~Ich habe keine Ahnung, wovon Ihr sprechet. Ich kam aus einem bestimmten Grund nach Baldurs Tor, betrat aber irrtümlich das falsche Haus. Auf Wiedersehen!~
+@162 = ~Untersucht das Geheimnis der Nördlichen Zitadelle
+
+Wir haben zugestimmt, einige Missionen für Duke Eltan anzugehen. Wir sollen das Eisenthron-Hauptquartier hier in Baldurs Tor unterwandern und außerdem, zur Nördlichen Zitadelle im Nordosten von Baldurs Tor zu gehen. Es scheint, dass dort Leute spurlosverschwinden. Wir müssen herausfinden, was dort wirklich vor sich geht...~
+@163 = ~Schwierigkeiten? In Schwierigkeiten auszuhelfen wurde ist zu unserer zweiten Natur geworden... Vielleicht können wir helfen?~
+@164 = ~Entlang der Nordküste lebt eine kleine Gemeinschaft von Fischern. Es scheint, dass etwas in das Gebiet nördlich ihres Dorfes eingedrungen ist, dass sie in Angst und Schrecken versetzt.~
+@165 = ~Es war uns ein Vergnügen.~
+@166 = ~Entlang der Nordküste lebt eine kleine Gemeinschaft von Fischern. Es scheint, dass etwas in das Gebiet nördlich ihres Dorfes eingedrungen ist, dass sie in Angst und Schrecken versetzt.~
+@167 = ~Vielleicht gibt es einen Weg. Wir möchten wissen, ob Ihr von einer Insel hier in der Nähe im Schwertermeer gehört habt... Ich weiß nicht genau, was wir suchen, aber es könnte eine Art eine Festung darauf geben...~
+@168 = ~Es ist nicht nötig.~
+@169 = ~Danke, wir werden sehen, ob wir Nadalin ausfindig machen können.~
+@170 = ~Wir beseitigten das Problem, das die Fischer entlang der Nordküste mit den Sirenen und Feuersalamandern hatten. Der Hauptmann des Dorfes sagte uns, dass es in der Nähe eine Insel gibt, nach der wir suchen. Er sagte, dass der Weg zur Insel nur dem Fischer Nadalin bekannt ist, der aus dem Dorf vor einiger Zeit floh, als die Sirenen und Feuersalamander erstmals erschienen. Wir sollten gehen und ihn finden.~
+@171 = ~Die Fischer aus einem Dorf an der Nordküste baten uns um einen Gefallen, und wir schauten in einer von einigen Feuersalamandern bewohnten vulkanischen Höhle vorbei! Wir wurden am Eingang von ihrem Wachtposten Humbaba herausgefordert, deshalb mussten wir ihn ausweiden.~
+@172 = ~An der weiten Nordküste trafen wir eine Gruppe von Feuersalamandern, die die vulkanischen Höhlen bewohnten und die örtlichen Fischer terrorisierten.~
+@173 = ~Die Fischer aus einem Dorf an der Nordküste baten uns um einen Gefallen, und wir schauten in einer von einigen Feuersalamandern bewohnten vulkanischen Höhle vorbei! Wir wurden am Eingang von ihrem Wachtposten Humbaba herausgefordert, daher mussten wir ihn ausweiden.~
+@174 = ~Humbaba muss gut zuhören - wir gehen nirgendwo hin - wir sind bereit zu kämpfen.~
+@175 = ~Seid bereit, Ungeheuer, und hebt Euer Geschwätz für Eure Bekenntnisse in den NeunHöllen auf!~
+@176 = ~Wir haben einen Weg gefunden, die Träume der Druidin Olivia wahr zu machen.. Ihr könnt Euch nicht vorstellen, wie überrascht wir waren, als wir ihre wahre Natur erkannten...~
+@177 = ~Wir erwarteten kein warmes Willkommen, aber dessen ungeachtet könntet Ihr gleichwohl mit uns sprechen.~
+@178 = ~Wir haben keine Zeit, um "Ratespiele" zu spielen. Wir nehmen an, dass Ihr einen Schlüssel habt. Es ist sogar noch wahrscheinlicher, da Ihr Monoach gekannt habt. Wir brauchen ihn.~
+@179 = ~So - etwas Vertrauliches... Wo können wir diesen Kolchear finden?~
+@180 = ~Was? Nicht schon wieder. Gibt es denn keinen Weg, diese endlosen Konflikte zu vermeiden?~
+@181 = ~Warum besiegt Meandar seine Feinde nicht selbst, anstatt die Hilfe von Abenteurern in Anspruch zu nehmen?~
+@182 = ~Zerstört den Kult der Schwarzen Hand
+
+Meander, der Anführer der Eissalamander, weigerte sich, auch nur daran zu denken, über den Schlüssel zum verschlossenen Altar in der Nördlichen Zitadelle zu sprechen, bis nicht der Kult der Schwarzen Hand vernichtet und ihr Führer getötet ist. Wenn wir nur wüssten, wo man den Kult findet, könnten wir vielleicht einige Fortschritte erzielen. Meander hat vorgeschlagen, dass wir in Ulgoths Bart und den Feldern der Toten nach Antworten suchen.~
+@183 = ~Nie im Leben, Mann, und Euer Leben bedeutet uns absolut nichts. Ihr hättet Euch nicht über die Orks zu sorgen brauchen, wir werden Euch unsererseits aufspießen und Euer wertloses Leben beenden, und dann Eure Frau ausfindig machen und sie einfach aus Spass versklaven... Die Show muss weitergehen, wisst Ihr...~
+@184 = ~Ja, tat sie, Eure Frau ist in Ulgoths Bart, und sie zeigte uns, wo wir Euch finden können. Ihr seid frei und könnt jetzt nach Hause gehen.~
+@185 = ~Wir retteten Magnads Kinder und Pandris, Ynnes' Manns, vor den Orks in den Feldern der Toten. Pandris sagte uns, dass die Orks Streit mit einem Kult in der Gegend hatten. Er erwähnte auch, dass die Orks emsig versuchten, in eine aufgegebene Kapelle im Forst der Toten im Südosten zu gelangen. Wir sollten das untersuchen.~
+@186 = ~In der Nähe des orkischen Lagers in den Feldern der Toten in einer der Höhlen trafen wir einen Mönch. Die Orks wollten ihn anscheinend martern. Er war so dankbar, dass er vergaß, uns zu belohnen, und lief schnell davon zu einer wichtigen Mission nach Ulgoths Bart. Interessant - warum sollten die Orks einen einfachen Mönch belästigen? Das erfordertweitere Nachforschen, wenn wir wieder nach Ulgoths Bart kommen.~
+@187 = ~Wartet! Wo kann ich den Kult der Schwarzen Hand finden? Ich will ihn suchen und ihre Geißel beenden...~
+@188 = ~Es gibt Gerüchte über sonderbare und beunruhigende Dinge, die im Norden geschehen.~
+@189 = ~Versucht Ihr, uns zu erschrecken? Wir haben vielen Herausforderungen gegenübergestanden und wehrten sie alle ab...~
+@190 = ~Im Norden von Baldurs Tor im Forst der Toten trafen wir den einsamen Waldläufer Koldar, der uns vor Orks warnte, die in diesem Gebiet öfter als gewöhnlich aufkreuzen. Es sieht so aus, als ob sie versuchen, das Geheimnis des alten im Wald erbauten orkischen Heiligtumes zu lösen.~
+@191 = ~Ich weiß, was sagen wollt, und ich werde Euch zuhören, solange der Preis stimmt; habe ich Recht, mein Freund?~ ~Ich weiß, was Ihr sagen wollt, und ich werde Euch zuhören, solange der Preis stimmt; habe ich Recht, meine Freundin?~
+@192 = ~Warum könnt Ihr nicht selbst darauf aufpassen, wenn es Euch so am Herzen liegt?~
+@193 = ~Warum sollte ich nicht einfach Euer Gold nehmen und es auf meine Weise erledigen?~
+@194 = ~Es ist in Ordnung. Ich mag keine Gewalt, besonders keine sinnlose. Ich werde zu Lobar gehen, um zu sehen, was ich finden kann.~
+@195 = ~Ich mag Eure Einstellung nicht... Es wird Zeit, wieder nach Hause zu gehen, Ungetüm!~
+@196 = ~Gibt es keinen Weg, ohne weitere Opfer auszukommen... So sei es! Wir werden Euch die Leiche beschaffen... Aber wir werden nicht zu Freunden, so viel ist sicher. Habt Ihr eine Idee, wo wir denjenigen ausfindig machen könnten, der Euch herbei rief?~
+@197 = ~Wir sind müde, den Elfen zu jagen. Ich denke, wir sollten einfach die Waffen kreuzen. Sollen wir auch tanzen... ?~
+@198 = ~Wir trafen Nadalin bereits in Baldurs Tor! Danke, wir werden sehen, ob wir Nadalin ausfindig machen können.~

@@ -1,0 +1,9 @@
+IF
+  Global("NTotSCSpawn","AR8608",0)
+THEN
+  RESPONSE #100
+    ActionOverride("IRON6",DestroySelf())
+    CreateCreature("NTSELANI",[339.282],2)
+    SetGlobal("NTotSCSpawn","AR8608",1)
+END
+

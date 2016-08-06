@@ -1,0 +1,10 @@
+IF
+  Global("DeadUtorByOrpeho","GLOBAL",1)
+  Global("Brentaw2Appears","GLOBAL",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("Brentaw2Appears","GLOBAL",1)
+    ActionOverride("NTBRENTA",StartDialogue("NTBRENTA",[ANYONE]))
+END
+

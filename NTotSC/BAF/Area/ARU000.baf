@@ -1,0 +1,20 @@
+IF
+  Global("YnessSpawn","ARU000",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTYness",[2587.746],14)
+    SetGlobal("YnessSpawn","ARU000",1)
+END
+
+IF
+  Global("FreeReedrigToLeave","GLOBAL",1)
+  Global("ReedrigComesToBeard","GLOBAL",0)
+  !Exists("NTREEDRI")
+  !Dead("NTREEDRI")
+  Dead("TANAR")
+THEN
+  RESPONSE #100
+    CreateCreature("NTREEDRI",[1267.769],0)
+    SetGlobal("ReedrigComesToBeard","GLOBAL",1)
+END
+

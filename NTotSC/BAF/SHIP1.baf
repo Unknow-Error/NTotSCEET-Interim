@@ -1,0 +1,22 @@
+IF
+  Clicked([ANYONE])
+  PartyHasItem("MISC1C")
+THEN
+  RESPONSE #100
+    ActionOverride(Player1,LeaveAreaLUAPanic("BG1000","",[162.1476],12))
+    ActionOverride(Player1,LeaveAreaLUA("BG1000","",[162.1476],12))
+    ActionOverride(Player2,LeaveAreaLUA("BG1000","",[210.1465],12))
+    ActionOverride(Player3,LeaveAreaLUA("BG1000","",[252.1458],12))
+    ActionOverride(Player4,LeaveAreaLUA("BG1000","",[304.1443],12))
+    ActionOverride(Player5,LeaveAreaLUA("BG1000","",[356.1427],12))
+    ActionOverride(Player6,LeaveAreaLUA("BG1000","",[406.1423],12))
+END
+
+IF
+  Clicked([ANYONE])
+  !PartyHasItem("MISC1C")
+THEN
+  RESPONSE #100
+    DisplayString(Myself,@30)
+END
+

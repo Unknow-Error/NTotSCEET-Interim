@@ -1,0 +1,22 @@
+IF
+  OnCreation()
+  Global("EldodSaysTrue1","GLOBAL",1)
+  !Dead("NTELDOD")
+  !Dead("NTELDOD1")
+THEN
+  RESPONSE #100
+    CreateCreature("NTELDOD1",[836.784],0)
+    SetGlobal("EldodSaysTrue1","GLOBAL",2)
+END
+
+IF
+  OnCreation()
+  Global("EldodComeEnemy","GLOBAL",1)
+  !Dead("NTELDOD")
+  !Dead("NTELDOD1")
+THEN
+  RESPONSE #100
+    CreateCreature("NTELDOD1",[836.784],0)
+    SetGlobal("EldodComeEnemy","GLOBAL",2)
+END
+

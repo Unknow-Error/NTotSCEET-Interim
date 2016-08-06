@@ -1,0 +1,8 @@
+IF
+  OnCreation()
+  Global("EnteredTheSirineIsland","GLOBAL",0)
+THEN
+RESPONSE #100
+    SetGlobal("EnteredTheSirineIsland","GLOBAL",1)
+    DisplayString(Myself,@0)
+END

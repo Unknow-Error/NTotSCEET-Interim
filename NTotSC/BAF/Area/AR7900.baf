@@ -1,0 +1,7 @@
+IF
+  Global("NTShiloSpawn","AR7900",0)
+THEN
+  RESPONSE #100
+    SetGlobal("NTShiloSpawn","AR7900",1)
+    CreateCreature("NTShiloC",[4373.3412],0)
+END

@@ -1,0 +1,12 @@
+@0    = ~You have made a wise decision.  It is a difficult mission that I give you, but I am sure that you have the wherewithal to make it through.  Return and report to me once you feel you have enough information to use against the Iron Throne.
+ 
+There is another case. Our Citadel on the North border seems to have strange things going on. A messenger told me that people were disappearing recently, but I cannot send anyone there who might be loyal. If you are able to spend a few days just visit the place and try to find out what's going on there.~
+@1    = ~We'll be back as soon as possible.~
+@2    = ~Investigate the Iron Throne & Mystery at the Northern Citadel
+
+We have agreed to go on a couple of missions for Duke Eltan.  We are to infiltrate the Iron Throne headquarters, here in Baldur's Gate and he has asked me to go to the Northern Citadel northeast of Baldur's Gate.  It seems that people have been disappearing from there.  He wants me to find out what is really going on...~
+@3    = ~We'll be back soon, but could you call off your men, they've been causing us no end of grief.~
+@4    = ~I can't do that.  Most of my men don't even know that I've hired criminals.  You're going to have to do this on your own, sorry.~
+@5    = ~Mystery at the Northern Citadel
+
+Duke Eltan has asked me to go to the Northern Citadel northeast of Baldur's Gate.  It seems that people have been disappearing from there.  He wants me to find out what is really going on...~

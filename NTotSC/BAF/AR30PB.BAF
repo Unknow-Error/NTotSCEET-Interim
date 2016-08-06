@@ -1,0 +1,15 @@
+IF
+  OnCreation()
+  Global("NewEltanMissionNorth","GLOBAL",1)
+  Global("KoboldaVersusMonkde","GLOBAL",0)
+THEN
+  RESPONSE #100
+    CreateCreature("KOBOLDA",[2477.2900],0)
+    CreateCreature("KOBOLDA",[2456.2953],1)
+    CreateCreature("KOBOLDA",[2441.3009],0)
+    CreateCreature("KOBOLDA",[2445.3095],0)
+    CreateCreature("KOBOLDA",[2442.3115],1)
+    SetGlobal("KoboldaVersusMonkde","GLOBAL",1)
+    Continue()
+END
+

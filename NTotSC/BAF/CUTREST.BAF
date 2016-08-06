@@ -1,0 +1,14 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    PlaySound("SLEEP")
+    Wait(15)
+    PlaySound("SLEEP")
+    StartMovie("REST")
+    SetGlobal("TimeToHaveRested","GLOBAL",1)
+    DisplayString(Myself,@10)
+    EndCutSceneMode()
+END
+

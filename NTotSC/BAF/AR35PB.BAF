@@ -1,0 +1,14 @@
+IF
+  Global("TalkedToShelton","GLOBAL",1)
+  Global("DeadUtorByOrpeho","GLOBAL",0)
+  !Dead("NTUTOR")
+THEN
+  RESPONSE #100
+    ActionOverride("NTUTOR",DestroySelf())
+    CreateCreature("NTUTOR1",[360.444],0)
+    CreateCreature("NTORPEHO",[349.401],0)
+    ActionOverride("NTUTOR1",Kill(Myself))
+    SetGlobal("DeadUtorByOrpeho","GLOBAL",1)
+    Wait(1)
+END
+

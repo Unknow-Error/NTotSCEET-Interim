@@ -1,0 +1,81 @@
+IF
+  See([PC])
+  Allegiance(Myself,ENEMY)
+  Global("Fireballet","GLOBAL",0)
+THEN
+  RESPONSE #100
+    ForceSpell([PC],WIZARD_DISPEL_MAGIC)
+    Wait(2)
+    ForceSpell([PC],RED_FIREBALL)
+    SetGlobal("Fireballet","GLOBAL",1)
+END
+
+IF
+  Global("GhotalFight","GLOBAL",1)
+  See([PC])
+THEN
+  RESPONSE #100
+    ForceSpell([PC],POWERWORD_STUN)
+    Wait(2)
+    AttackOneRound(NearestEnemyOf(Myself))
+    SetGlobal("GhotalFight","GLOBAL",2)
+END
+
+IF
+  Global("GhotalFight","GLOBAL",2)
+  See([PC])
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself),WIZARD_DISPEL_MAGIC)
+    Wait(2)
+    ForceSpell([PC],RED_FIREBALL)
+    AttackOneRound(NearestEnemyOf(Myself))
+    AttackOneRound(NearestEnemyOf(Myself))
+    Wait(1)
+    SetGlobal("GhotalFight","GLOBAL",3)
+END
+
+IF
+  Global("GhotalFight","GLOBAL",3)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell([PC],POWERWORD_BLIND)
+    Wait(2)
+    AttackOneRound(NearestEnemyOf(Myself))
+    AttackOneRound(NearestEnemyOf(Myself))
+    SetGlobal("GhotalFight","GLOBAL",4)
+END
+
+IF
+  Global("DeathFight","GLOBAL",4)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell([PC],FEAR)
+    Wait(2)
+    AttackOneRound(NearestEnemyOf(Myself))
+    AttackOneRound(NearestEnemyOf(Myself))
+    SetGlobal("GhotalFight","GLOBAL",5)
+END
+
+IF
+  Global("GhotalFight","GLOBAL",5)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    ForceSpell([PC],PAIN)
+    Wait(2)
+    AttackOneRound(NearestEnemyOf(Myself))
+    AttackOneRound(NearestEnemyOf(Myself))
+    SetGlobal("GhotalFight","GLOBAL",6)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    EquipMostDamagingMelee()
+    Attack(NearestEnemyOf(Myself))
+END
+

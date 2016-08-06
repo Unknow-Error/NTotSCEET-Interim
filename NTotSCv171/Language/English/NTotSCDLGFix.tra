@@ -1,0 +1,240 @@
+// NTotSC Dialog Patch Translation File
+@1   = ~You have just given General Ghotal the ability to escape from his tomb, and wreak havoc on the surrounding countryside. Hopefully you have the strength, courage and fighting ability to stop him!~
+@2   = ~If you don't mind, I have another quest to offer to you. Near the Firewine Bridge we discovered an entrance to the remaining dungeon part of the city ruins. Unfortunately, there are evil spirits inside, but it shouldn't be too much trouble for you. I want you to go there and clean it out - that would give me the opportunity to begin a new exploration.~
+@3   = ~Thank you. I have the scroll containing the seal that will allow you to get inside. The entrance is protected by a ward, made by my friend, a mage, to keep out any accidental passers by. You know what I mean, now.  So take this scroll, you will be able to pass through the entrance unimpeded.~
+@4   = ~You there! My dear friend! Please stop for a moment!~
+@5   = ~Well now, it's just better for you that I take my leave of you.~
+@6   = ~Well... well, welcome. I am so happy to see anyone but the undead moving about in the area! I am Ordolath and I take my sabbaticals here... You know, sometimes it's nice to get away from the hustle and bustle of Baldur's Gate...~
+@7   = ~Nothing special, friend, hehe. It was my poor fortune that made me forget my candle when preparing for this trip. Without my candle I am not able to write in my diary or read my books. The nights here are very dark... You just can't imagine what that means to such a book-lover like me!~
+@8   = ~So I have an offer to make you. If you will spend a few days to help me and bring me my little wax treasure, I will reward you as best I can! And do not believe the reward will be a poor one! Apart from 2000 gp, I can offer you a precious item that I'm sure you will like... So? Would you help me?~
+@9   = ~Excellent! From the first time I saw you, you appeared to be trustworthy! My house, young friend, is in the northern part of the Gates, not far from Northern Ward. It is a white house behind the blue mage-tower. You can't miss it. Well, please hurry. I will be awaiting your return impatiently. See you soon!~
+@10  = ~So, what are you waiting for? Please hurry and retrieve my candle!~
+@11  = ~Wonderful! You have my heartfelt thanks! Here is the reward I have promised you! I must hurry on my way now.~
+@12  = ~Oh, yes, yes... I'm sorry about that surprise. Let me apologize to you my friend, I exposed you to danger, so I hope my gifts will be enough reward for your efforts. No more words, I must depart now. Stay safe!~
+@13  = ~Travelers here are rare indeed, but recently strangers and violent creatures of all kinds have been appearing more often. What may I do for you?~
+@14  = ~Travelers here are rare indeed. Many are the rumors circulating around the troubles in the south. What may I do for you?~
+@15  = ~I'm sorry. You are not welcome here; as a matter of fact you are just simply not needed. It's high time to die, you sniveling whelps!!!~
+@16  = ~I'm sorry for my demeanor, but things are going really badly now. Recently, a close friend of mine died in Baldur's Gate. His name was Hasdar. I hired him to get some information and now the matter has caught up with him.~
+@17  = ~You should be ashamed of yourself for killing innocent people. But on the other hand he wasn't really my friend, just someone I hired to retrieve some artifacts for me. I paid thrice what they are really worth. Just my fate. If only you were able to replace him on his mission I would be most grateful. I can pay you as well as I did him.~
+@18  = ~Now, pay attention. I'm searching for two items, actually one will do. I need someone to get them for me. I can offer sufficient pay.~
+@19  = ~The first artifact is a magical bow, once the pride of elven soldiers, lost ages ago. However I've been informed, that Fey'doch, an elf who quarters north from here, in Elven Wood has come into possesion of this precious item. Possibly you could rebuy it from him. I will repay all your expenses and add 2500 gp.~
+@20  = ~The second artifact - one that is much more valuable, and for mages of my kind, invaluable, is the Great Book of the Unknowing. They say that it is contained in the Candlekeep's collection, but probably the only person who knows anything for sure is Lobar, the owner of the Low Lantern in Baldur's Gate docks district. Offering him a tidy sum of gold "will refresh" his memory for sure. Naturally, I don't mind the costs, and I will give you an extra 5000 gp.~
+@21  = ~And your reward you shall have! It appears that this will be the end of our acquaintance, the rest will be mine at last - no offence meant, just business... DIE whelps!~
+@22  = ~Have you considered my offer? Are you interested in it?~
+@23  = ~It seems the evil grows within you, heh,heh,heh... That's even better, mmmm?...~
+@24  = ~So, it has been accomplished. The Great Book of Unknowing is back with its rightful owner. And the owner is very satisfied.~
+@25  = ~Have you been searching for my items? It may take a long time if I hazard a guess...~
+@26  = ~We already have this magical bow. How much is it worth to you?~
+@27  = ~Ahhhh,,, that's very nice. It's good to see that darkness growing within you,,,,heh,heh,,, We'll get to your reward later.~
+@28  = ~Whatever...~
+@29  = ~Wonderful! Now off you go to find the magical bow, and when you return, we'll see about that reward... heh,heh...~
+@30  = ~Very well, we'll return after we retrieve the bow.~
+@31  = ~We'll take the jobs, but I won't promise you anything.~
+@32  = ~The mage Haeball, who lives in the tower in Larswood, southeast of the Friendly Arm Inn, sent us with the tasks to get the Great Book of Unknowing and a magical bow possessed by an elf who lives somewhere in the north. If we are lucky enough, we'll find both of them and earn some good money...~
+@33  = ~We already have the Great Book of Unknowing. How much is it worth to you?~
+@34  = ~The mage Haeball, who lives in the tower in Larswood, southeast of the Friendly Arm Inn, sent us with the task to get a magical bow possessed by an elf who lives somewhere in the north. If we are lucky enough, we'll find it and earn some good money...~
+@35  = ~We already have both of these items with us.~
+@36  = ~I have an opportunity for you brave scouts. I can advise you to avoid The Fields of the Dead. It has been a regular dwelling place orcs and other lost souls for ages, but their number are increasing unexpectedly lately. Their activities touch even us, and they are constantly trying to kidnap people from around here... My neighbor, Yness, went to Ulgoth's Beard for help, since her husband was the last one to disappear. She must have been there for a week, now. Maybe she never even got there... Well, don't know what are your plans, but be careful.~
+@37  = ~Thanks for gettin's rid of those zombies and stuffs. We all really appreciates it and all.~
+@38  = ~A zombie infestation.
+
+I slew twenty zombies ploughing around in Wenric's farm.  I don't know where they came from, but they shouldn't trouble him again.~
+@39  = ~Please travelers, forgive me that I dare to disturb you but this is not a funny matter.~
+@40  = ~I know that you probably have no interest in this, but where else can my wife and I seek help?~
+@41  = ~I was travelling with my wife to Elthurel, when our caravan was attacked by a horde of orcs. We fled in panic with all the others. Unfortunately, our children - Falton and Vanessa, were travelling with us. It's a shame for us, but in the confusion of the attack we lost track of our children... We came back as soon as possible, but we have found no sign of the caravan or our children... One of the wounded guards, whom we found nearby, told us that as the orcs were carrying off the prisoners they had been talking about Fealn Datoon... That is an ancient name of a land located north of here... Fields of the Dead. We don't know how to get there, let alone how to defeat the the orcs and get our children back.~
+@42  = ~Thank you. We really appreciate your help, but we can only offer you in exchange just this gift... We must go to our children now...~
+@43  =~Greetings good adventurers...! May I speak with you for a moment, please?~
+@44  = ~I beg your pardon for disturbing your path, but I'm desperate. My husband was kidnapped by orcs from up north and my pleadings helped not at all... They came to our farm just north of Wyrm's Crossing and spirited him away! I don't know why they took him to their settlement in the Fields of the Dead... I beg you for help, please! I came here a week ago seeking help and no one wants to listen to my misery...~
+@45  = ~Oh, no... You were my final hope, and now I have none... Go away and leave me be with my sorrow...~
+@46  = ~The gods bless you! Thank you! The journey through the wastelands to the Fields of the Dead is very difficult, but with Pandris - my husband, we came here from the north right across that wilderness, and settled just north of Baldur's Gate. The place I saw on that journey where they may have him is a day from here or maybe a little longer if you start from the farms to the southeast. I'll be awaiting any news here. Please, rescue him...~
+@47  = ~Hello! And who have we got here?.... Sorry, you are not the person... Tell me then, what brings you here?~
+@48  = ~Ha, ha, the old scamp ran away so fast he forgot his shoes? That's good! It must have been something really valuable since he had to ask anyone to bring it instead of himself... Doesn't matter... I only care about that poor mage. He shouldn't have escaped! The Red Mages do not forget so easily... Enough talking! I feel like venting my anger. And you look like a very handy target! Ha-ha-ha. When we finish, your skulls tell me all I need to know. Ha-ha-ha!~
+@49  = ~Not so fast, my dear friends! You'll go nowhere, I think. Wherever I am sent, I leave no traces of my passing! Ha-ha-ha.~
+@50  = ~Hasten~
+@51  = ~Can I be helpin' you?~
+@52  = ~Ahh!  This is insane!~
+@53  = ~This is insane! We've no need to fight each other!~
+@54  = ~~
+@55  = ~I have little more to say.~
+@56  = ~You've heard my stories.  Nothing has changed since we talked last.~
+@57  = ~Leave me!  I would be alone!~
+@58  = ~Fiend!!  He is but a child!  Help!!~
+@59  = ~Alas, normally we DO have a substantial number of guards.  The majority have been sent south however, to help combat the rash of robberies along the Coastway road.  It was after that our own problems began.  Two of our remaining guards are among the missing, and the Captain himself has not been seen since yesterday last.  We have appointed a replacement, Eldod, in his stead, and you may find him outside the front of the Keep.~
+@60  = ~I know...knew them all, though I knew...a great deal more about one of them.  We were...we...Montgomery and I were...I cannot speak of this!  To think of losing him...'tis not fair you know...We fought the other night and he left so mad.  Such unions are...frowned upon by our order, but now he's gone and I...  Please...find him.  Find all of them, and bring them home safely.~
+@61  = ~I...understand.  Please then, at least take this.  Only someone who is not himself could possibly be behind the disappearances and this surreptitious attack on the Citadel, so use this when you feel the time is right. This will help in your trials ahead.  I shall be in great trouble when 'tis found missing, but your success is crucial. I fear for the life of brave Satos, filling in as he has in place of our Head Abbot. It would be best to be certain he remains safe. I don't know what we would do if we lost him now!~
+@62  = ~At the discretion of the citadel's founder, Monoach, we have safeguarded one of our relics there - a holy symbol of Helm. But we don't know where the key is. It's said that Monoach gave it to his trusted friends, somewhere far away for safekeeping... They reside on an island far to the northwest... It's difficult to say really. Perhaps if you travelled north along the coast from Ulgoth's Beard you could find some location that knows of it and could give you passage there?~
+@63  = ~The Priest of Helm in the temple said you knew about the locked alter there. Could you enlighten us about it?~
+@64  = ~I don't wish to discuss the alter with you right now, considering all that is going on. Come back and talk to me again about it once you have figured out what is going on here at the Citadel, and have made everybody safe once again.~
+@65  = ~So, the Citadel is safe once more. This is very good news. What may I help you with?~
+@66  = ~Leave us with our troubles!... We have enough intruders already!...~
+@67  = ~Thank you, that was really generous of you to get rid of those beasts for us. Maybe now we'll finally be able to return to our fishing.~
+@68  = ~You have returned... but I can tell you were not successful yet... others have tried before and failed as well...~
+@69  = ~Those monsters are pretty frightening, aren't they?~
+@70  = ~We are saved! Amazing! I thought those fire monsters would end up forcing us into starvation... We really appreciate what you did...~
+@71  = ~If you can... We have been fishing here for years, but for the last few weeks we can't get close to our boats. On the north side of our bay some monsters appeared... They breath with fire and kill anyone who gets closer to the bay. And now, even more recently, a tribe of Sirines has intruded on the shores near where we land our fishing boats as well. Can you deal with them?~
+@72  = ~How can we ever repay you?~
+@73  = ~We do not venture so far into the sea... But Nadalin was here some time ago. He used to sail on the wide sea and told us once about an island of Lizards - similar to those in the cave..., but those had not burned with fire...
+You'd have to ask Nadalin. Now, that the monsters are gone from our fishing grounds, maybe he'll come back to us... I know, he liked his duties very much, but he escaped when these... these Salamanders appeared.~
+@74  = ~We've already met Nadalin in Baldur's Gate! I'm sure he will be happy to hear about the monsters being defeated, so he can return to his duties.~
+@75  = ~We eliminated the problem the fishermen along the Northern Coast were having with the Sirenes and Fire Salamanders. The skipper from the village has told us that there is an island, that we are looking for, nearby. He says that the way to the island is only known by the fisherman, Nadalin, who escaped from the village some time ago when the Sirenes and Fire Salamanders first appeared. We ought to go find him.~
+@76  = ~You first planers dare come to Humbaba...? You've gone crazy, right?~
+@77  = ~Of course I will not be the only one doing the killing. Humbaba is with friends, and here they are now... Humbaba is ready to fight!~
+@78  = ~What anger you have! Humbaba is ready to fight - first planers are stupid - first planers are ready to die...!~
+@79  = ~Humbaba says tiny ones should go away - or Humbaba will have fun killing them!~
+@80  = ~You have outsmarted Humbaba..! Humbaba is furious..! Humbaba kill first planers now..!~
+@81  = ~Oogoor senses his brother's blood on your hands! Oogoor is furious and his companions kill stupid first planers!~
+@82  = ~You have ignored my warning. Perhaps you doubted it's seriousness.  I tell you now that this is our living-land, and you are not welcome!  Now you will be removed!~
+@83  = ~The gulls are even more beautiful than the winds they ride on, are they not? ...I will be one, someday, you know. I long for it more than anything. If only there was some way to set my spirit free...~
+@84  = ~Do you know the story of Monoach?... That's good. What you don't know is that Monoach was fighting against some cult. He abhors the Black Hand and their desire to bring back Bhaal and as long as their new temple exists, there is no way I can help you. Come back, when their leader is dead. I'll know if it is done. I do not know where the Temple of the Black Hand is located, but it's agents are growing in number. I understand there may be a splinter branch in Ulgoth's Beard, and there have been strange goings on in the Field of the Dead. Perhaps if you search there, you will be able to locate it.~
+@85  = ~Whoever you are, thank you - you came just in time... for surely we would have ended up impaled... by these... these beasts... I believe my wife - Yness - must have sent you...?~
+@86  = ~Surely you jest for your intent sounds insane, but maybe you are right and the world has gone nuts...~
+@87  = ~Oh! Thank you for saving me! I don't have anything to offer but maybe this information will do. I've heard the orcs talking while I've been held captive. I think that they have come here because a great orcish leader is entombed somewhere near here. They are looking for some artifacts lost in the mists of the ages to unlock the tomb, but without success up until now. Shamans have been making sacrifices to Gruumsh to evoke his signs. They are also trying to enter an old chapel in the Wood of the Dead, south of here, but unsuccessfully as well...~
+@88  = ~They are also searching for some cultists which they have some conflict with. I've heard a name, something like Haanibal... but I could be wrong... I'll write you a letter. Please give it to my wife. Now, I should go home... but until someone solves the mystery of the orcs the farms will not be safe. They are not safe even without the orcs. Thank you once again! Good luck!~
+@89  = ~Travellers within the wilderness?! All who care about their health normally keep on the road to Elthurel. What brings you here?~
+@90  = ~The Fields of the Dead were never a calm place and to be able to stand it here longer than there takes much endurance. Now, with the plague of orcs worse than anyone can remember I am going to leave as well. There is an orc's sanctuary here somewhere. They believe it houses a hidden power and they desperately look for the key to get inside to take it. From what I could overhear they are embarrassed for they have found nothing, yet. The sanctuary is constantly protected by their priests. It is close to here somewhere to the west of us... Keep well!~
+@91  = ~'Round here?  I wouldn't worry yourself too much, unless you're brainless and charge everything you see. There are many in the Land now. The Fields of the Dead is the forgotten place, though it is located only a few days from Baldur's Gate. Even Elves are rare here, but not too far distant in the north begins the lands of Sy'Tel'Quessir. Here the phantoms make the rules and more recently the orcs. They are in a frenzy while they are looking for something desperately.~
+@92  = ~I did not intend for my words to scare you away.  They were a simple warning of dangers true, and meant as nothing more. The occasional chat is certainly welcome, but perhaps today is just not the best day for it. Orcs are like a plague here and in the Fields of the Dead since they began to look for something and they have grown rather aggressive towards anyone that they do not know who gets too close to their territory lately... I'd keep your weapons at the ready as you travel.~
+@93  = ~You would do well to know your own limitations. I don't care whether you're a great swordsman or a powerful wizard, regardless you will end up filleted in the noonday sun if you do not take proper care. Orcs swarm here for they believe there is a sanctuary of their former leader here somewhere. I could hear here them talking around their fires and I've no wish to stay here any longer.~
+@94  = ~Hold on travelers! By accident *or not* - I've overheard you speaking with Shaella, or as you prefer to call her, Elnaedra.  Are you really interested in finding this strange book?~
+@95  = ~Shaella knows what she is talking about - or rather says what she still knows. She has seen this book and you can see its influence on her.  My task is to find this book and make it unavailable for people who don't know any better, who could share the same fate as Shaella.~
+@96  = ~If you must be that way, my whole life I have collected money to get this book. I can give it to you if you accept my offer.~
+@97  = ~If only it were that simple. I can't meet with the one who has some knowledge about this book. We were friends once, but some woman came between us. I'd really prefer not to meet him. And the same goes for him.~
+@98  = ~So you have found it. The reason of my lifelong search. It's time for your reward.~
+@99  = ~Hello again.  A pleasure having you here, to be sure.~
+@100 = ~We come here on business. We are interested in a certain book.~
+@101 = ~And it is a pleasure to return.~
+@102 = ~Why was I summoned...? Humanoids! Disgusting creatures crawling on the ground like vermin...~
+@103 = ~That's not normally our style but we haven't existed for 500 years and learned nothing at all... And we don't feel like staying here very long... You may send us back... But... what is required...? The corpse... corpse of the one who has summoned us... This worm is what is required...~
+@104 = ~Haaeebaaallsszzss....haszs...~
+@105 = ~You dare to doubt our promise? And you were right to do so...~
+@106 = ~Oh well... we're often picky and spiteful...it's a family trait... A bow... we're interested in a bow. It's in the possession of an elf, whose family jerked our chain long time ago... Yes... we want the bow of captain Sy'tell'Quessir... Fey'doch! This time we won't be prolonging our visit here... Kill Fey'Doch and fetch us his bow...~
+@107 = ~Humanoids surely are stupid... And nothing's gonna change that...~
+@108 = ~A bow and revenge... I'm waiting for the both of them...~
+@109 = ~Is your name Haeball by any chance?~
+@110 = ~That is one of my many names, yes. How may I help you?~
+@111 = ~Some creatures we came across down south of here indicated you might know something about the mage who summoned them here to this plane. They refuse to leave unless I bring the mage to them.~
+@112 = ~Ahhhh, hah hah hah, yes.... the mageling....who summoned them, you say? Well, we all want something, myself included. I'll make you a deal about this mage if you'll care to listen.~
+@113 = ~Well, if I want to make any progress on this quest, I don't see any other choice.~
+@114 = ~Haeball, could I ask you a question?~
+@115 = ~A lot of illegible information is scrawled on the paper, but it is possible to read a few parts:
+
+"...finally. Hasdar always brings good news. Now, with the work on the temple finished with it being sheltered against any intruders by Sharp Teeth Wood, my brethren can focus on the true destiny of the Black Hand...................... with Balor's Cult................... necessary."
+
+"Why the hell did I try to go back to those sunken ruins in the south that used to be mine?... slipping in the muck... now I find it is lost!... without that key I cannot even open my own writing-desk... Pretty as the place is it isn't safe... I must go there again to find it... if it weren't for that damned water... the man has no other place to live than swamps..."
+
+"..stupid damned orcs going crazy in the Wood of the Dead... trying to find a passage into... but only former druids of our brotherhood know the right combination of keys to open the crypt and we have hidden every key....without the......dagger and ring from........never gain entry............. in the temple of the stone circle..."
+
+"......Shaella is insane indeed..."~
+@116 = ~Thank you, whoever you are. I'm on an important mission to Ulgoth's Beard and these bastards had just captured me... I don't know what would have happened if you have not arrived in time...~
+@117 = ~So you know everything about the cult already... I didn't manage to get here in time because of those damned orcs... now nothing but unpleasantness is waiting for me in the assembly... or I should I say... death...~
+@118 = ~We are... the Cult of the Black Hand is an assembly of warriors and mages... led by Draagis... a powerful foe and an expert on ancient rituals. That's why he is interested in various artifacts and has been in contact with the cultists of Baalor... We planned to summon an even more powerful demon - the Prince of Baalors. But without the signet used by Tracea's cult the cooperation between our cults will not occur... I must disappear now. I'd rather the cult didn't find me bearing ill tidings...~
+@119 = ~If you want to find them go to the Wood of the Sharp Teeth... then further to the east and slightly north. But I wouldn't expect a warm welcome if I were you...~
+@120  = ~Two-Handed Sword of General Ghotal~
+@121  = ~This great sword was once wielded by the hands of Ghotal, famous leader of the orcish hordes from the North. With it he was able to instantly press against Luskan, Targos and other towns, even including Neverwinter. The fame of the sword was such that it made most of the defenders unwilling to put up any sort of organized resistance. But Ghotal went too far when Targos was finally conquered and destroyed. Allied forces of elves from Everaska and people of other northern towns ambushed the general and annihilated most of his legions. Ghotal himself however escaped from the battlefield, but was mortally wounded. He was never heard or seen of since, though orcish legend says he exists to this day, awaiting the opportunity to once again wreak havok upon the countryside.
+
+STATISTICS:
+
+Damage: 1D12 + 5
+THAC0:  +5
+Special:
+  40% chance to petrify target upon successful hit
+Damage Type: Slashing
+Weight: 12
+Speed: 9
+Proficiency Type: Two Handed Sword
+Weapon Type: 2-handed
+Requires: 13 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@122 = ~Welcome back, friend. How can I help you?~
+@123 = ~Could you take us back to Salamander Island?~
+@124 = ~Certainly. Let's go then.~
+@125 = ~It is done then. Good.~
+@126 = ~Who comes to Meandar? Monoach didn't send you, but you know that it is me to look for? ...How?~
+@127 = ~Meandar knows that someone will come who is seeking an answer... Is Meandar wrong?~
+@128 = ~Kolchear already knows you are here, since you beings from the first plane irritate him so... You may expect to meet up with him as soon as you leave our house. Kolchear is dangerous so good luck and watch out for yourself. Come back here afterwards and I'll give you the key...if you're still alive...~
+@129 = ~Ice Salamanders might not like one another, but they don't fight... They do not possess a weapon, which could defeat another Salamander...~
+@130 = ~Meandar is saddened that his brothers are gone, but he respects the valor and courage of the newcomers. Here is the key you seek. Look closely at the way it is mastered cause a great evil is hidden behind it... ancient and cruel...~
+@131 = ~Meandar and Monoach were friends... a long time ago. But Monoach never told us the usage of the key nor the way its paths lead... But Monoach wouldn't have given us the key if he was not afraid of its destiny. Meandar knows nothing more.~
+@132 = ~It's silly, I know, but it just doesn't feel right without my lucky arrow. These are great for anything with tough skin.~
+@133 = ~Charleston Nib, who we saved after his diggers went insane in the Kozah's crypt, offered us an additional quest.  There is a warded entrance on the Firewine Bridge leading into a new dungeon.  However, "evil spirits" are dwelling inside and he is unable to explore them. He has asked us to clear them out for him.~
+@134 = ~Get lost, you old geezer!~
+@135 = ~That's all really nice, but what in the nine hells do you want from me?~
+@136 = ~A strange man, Ordolath, whom we met in the wilderness west of Nashkel offered us 2000 gp and a precious item for bringing his candle from Baldur's Gate. He left it in his home in the North Ward, a white house behind a blue tower.~
+@137 = ~I have no time to spare for such foolish endeavors, now go away.~
+@138 = ~Unfortunately we haven't had the opportunity to retrieve it yet...~
+@139 = ~You are most welcome. Be careful on your journey.~
+@140 = ~We have brought Ordolath the candle from his house in Baldur's Gate, and true to his word, before departing he gave us a fine wand from his collection. Sadly, it appears he forgot that he promised to pay us 2000 GP for our troubles as well. We'll need to keep an eye out for him in the future and remind him of this if we ever come across him again...~
+@141 = ~We have brought Ordolath's candle to him, and he has given us our reward,and disappeared into the mists. It seems that hardly do you get to know someone, then they are gone forever. A sad thing!...~
+@142 = ~Do you have anything to sell? Let's take a closer look.~
+@143 = ~Haeball, a mage living in Larswood has a few choice items for sale.~
+@144 = ~Well, well...! We pay a friendly visit with Haebal and we are met with weapons and black magic... What could this Haeball hiding? We need to make a thorough search of his tower.~
+@145 = ~And the second item...?~
+@146 = ~So much for our labors being appreciated! We trudged our shoes to shreds and instead of the reward Haeball promised us, He tried to kill us! I don't know why, but I have a feeling that Haeball is not the last or only link of a chain...~
+@147 = ~Could you repeat what your tasks were? We might be interested now.~
+@148 = ~No, we haven't, we need more time to think about it.~
+@149 = ~That may be so, but we've got one of the artifacts you want and we expect the reward.~
+@150 = ~You do seem pretty pleased, but the "costs" to retrieve the book were very high and we expect the reward.~
+@151 = ~Yes we have them, and now it's time for us to be rewarded adequately.~
+@152 = ~Of course we have been, but we're in need of some of your goods.~
+@153 = ~As you can see, we're constantly searching...~
+@154 = ~That's alright. Tell us what is bothering you so much.~
+@155 = ~We have never been north of Baldur's Gate but your story has caught our attention. We'll take care of it as soon as we can.~
+@156 = ~In Baldur's Gate we met Magnad and Winorma who lost their children during their journey to Elthurel after their caravan was attacked by a group of orcs. Magnad suspects that the orcs took their children to Fields of the Dead, which are located somewhere north of Baldur's Gate. He doesn't know the exact location, but has suggested we travel to Ulgoth's Beard to see if we can find somebody who knows the way there.~
+@157 = ~We brought Yness a message from her husband, who we saved from Orcs' hands. She was very pleased, but she didn't have any money to pay.~
+@158 = ~Remove Fire Salamanders
+
+In Baldur's Gate we met a friendly fisherman, Nadalin. It looks as though some very strange things are happening in the north in the village where he lived.  He claims that Fire Salamanders have attacked his village and now no one can fish in the area.  I must take a good look at the problem when I get up there.~
+@159 = ~Remove Fire Salamanders
+
+We have told Nadalin, who's a fisherman and a sailor, that we have destroyed the Fire Salamanders and Sirenes that were plaguing his village. He can now return to his homeland.~
+@160 = ~An aquaintance forgot something. We were hired to bring it to him. But he never said a word about a Red Mage being in the residence. Satisfy our curiosity - who might you be?~
+@161 = ~I have no idea what you are talking about. I came to Baldur's Gate for a reason, but entered the wrong home by mistake. Good bye!~
+@162 = ~Investigate the Iron Throne & Mystery at the Northern Citadel
+
+We have agreed to go on a couple of missions for Duke Eltan.  We are to infiltrate the Iron Throne headquarters, here in Baldur's Gate and he has asked me to go to the Northern Citadel northeast of Baldur's Gate.  It seems that people have been disappearing from there.  He wants me to find out what is really going on...~
+@163 = ~Troubles? Helping with troubles has become our specialization recently... Perhaps we can help?~
+@164 = ~Along the Northern Coast lives a small community of fishermen. It seems that something has intruded in the area north of their village that has frightened them badly.~
+@165 = ~It has been our pleasure.~
+@166 = ~Along the Northern Coast lives a small community of fishermen. It seems that something has intruded in the area north of their village that has frightened them badly.~
+@167 = ~Perhaps there is a way. We'd like to know if you have heard about an island near here in the Sea of Swords... I don't know exactly what we are looking for, but there may be some kind of a fortress on it...?~
+@168 = ~It is not neccesary.~
+@169 = ~Thank you, we'll see if we can track Nadalin down.~
+@170 = ~We eliminated the problem the fishermen along the Northern Coast were having with the Sirenes and Fire Salamanders. The skipper from the village has told us that there is an island, that we are looking for, nearby. He says that the way to the island is only known by the fisherman, Nadalin, who escaped from the village some time ago when the Sirenes and Fire Salamanders first appeared. We ought to go find him.~
+@171 = ~The fishermen from a village on the Northern Coast asked us a favor and we "dropped by" a volcanic cave inhabited by some Fire Salamanders! We were challenged at the entrance by their sentry Humbaba so we had to gut him.~
+@172 = ~On the far Northern Coast we met a group of Fire Salamanders inhabiting the volcanic caves and terrorizing the local fishermen.~
+@173 = ~The fishermen from a village on the Northern Coast asked us a favor and we "dropped by" a volcanic cave inhabited by some Fire Salamanders! We were challenged at the entrance by their sentry Humbaba so we had to gut him.~
+@174 = ~Humbaba needs to listen well - we are not going anywhere - we are ready to fight.~
+@175 = ~Get ready monster, and keep your chatter for your confessions in the Hells!~
+@176 = ~We have found the way to make the dreams of Olivia the druid come true. You can imagine how surprised we were when we realized her true nature...~
+@177 = ~We didn't expect a warm welcome, but despite that, you might want to talk to us.~
+@178 = ~We don't have time to play "guessing games...". We assume that you have a key. It is even more probable since you have known Monoach. We need it.~
+@179 = ~So - something familiar... Where can we find this Kolchear?~
+@180 = ~What? Not again. Is there no way to avoid these never-ending conflicts?~
+@181 = ~Why doesn't Meandar defeat his enemies on his own instead of using the aid of adventurers?~
+@182 = ~Destroy the cult of the Black Hand
+
+
+Meander, the leader of the Ice Salamanders has refused to even consider talking about the key to the locked alter in the Northern Citadel, until after the destruction of the Cult of the Black Hand and the death of it's leader. Now, if only we knew how to find the cult, perhaps we could make some progress. Meander has suggested we search in Ulgoth's Beard and the Fields of the Dead for answers.~
+@183 = ~No way, man, and your life means absolutely nothing to us. You needn't have worried about the orcs, we'll impale you ourselves and end your worthless life, and then track down your wife and enslave her just for fun... The show must go on, you know...~
+@184 = ~Yes, she did, your wife is in Ulgoth's Beard and she pointed us to where we could find you. You are free to go home now.~
+@185 = ~We rescued Magnad's children and Pandris, Yness's husband from the orcs in the Fields of the Dead. Pandris told us the orcs had some conflict with a cult in the area. He also mentioned the orcs were actively trying to enter an abandoned chapel in the Wood of the Dead to the southeast. We should go investigate this.~
+@186 = ~Nearby the orcish camp in the Fields of the Dead in one of the caves we met a monk. The orcs apparently wanted to martyr him. He was so grateful that he neglected to reward us and ran away quickly for his important mission to Ulgoth's Beard. Interesting that the orcs would be bothering a simple monk. This will need more investigating when we get to Ulgoth's Beard again.~
+@187 = ~Wait! Where can I find the Cult of the Black Hand? I want to visit them and end their scourge...~
+@188 = ~There are rumors about curious and alarming things happening in the north.~
+@189 = ~Are you trying to scare us? We have faced plenty of challenges and put them all down...~
+@190 = ~To the north of Baldur's Gate in the Wood of the Dead we met the lone ranger, Koldar who warned us about Orcs appearing in this area more often than they usually do. It looks like they are trying to solve the mystery of the ancient orcish sanctuary built in the woods.~
+@191 = ~I know what you are trying to say and I will listen to you as long as the price is right; am I right my friend?~
+@192 = ~Why can't you take care of this on your own, if it's so dear to your heart?~
+@193 = ~Why shouldn't I just take your gold and do it my way?~
+@194 = ~It's ok. I don't like violence, especially that which is pointless. I will go to Lobar to see what I can find.~
+@195 = ~I don't like your attitude... Time to go back home, monsters!~
+@196 = ~Naturally, there's no way to do without further victims... So be it! We'll deliver you the body... But we're not gonna be friends, that's certain. Any idea where we might locate the one who summoned you?~
+@197 = ~We're tired of chasing the elf. I think we can just cross weapons better. Shall we dance...?~
+@198 = ~We've already met Nadalin in Baldur's Gate! Thank you, we'll see if we can track Nadalin down.~

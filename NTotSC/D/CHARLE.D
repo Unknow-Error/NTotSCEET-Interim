@@ -1,0 +1,23 @@
+ADD_TRANS_ACTION CHARLE BEGIN 21 END BEGIN
+END
+~SetGlobal("NTCharlesTalk","BG4101",1)~
+
+APPEND ~CHARLE~
+
+IF ~Global("NTCharlesTalk","BG4101",2)~ THEN BEGIN NTQuest
+  SAY @0
+  IF ~~ THEN REPLY @1 GOTO NTNo
+  IF ~~ THEN REPLY @2 GOTO NTYes
+END
+
+IF ~~ THEN BEGIN NTNo
+  SAY @3
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN NTYes
+  SAY @4
+  IF ~~ THEN DO ~GiveItemCreate("NTPBlet1",LastTalkedToBy(),0,0,0)
+EscapeArea()~ JOURNAL @5 EXIT
+END
+END

@@ -1,0 +1,30 @@
+IF
+  Global("TalkedToElnaedraPB","GLOBAL",1)
+  Global("HasdarSaysNew","GLOBAL",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("HasdarSaysNew","GLOBAL",1)
+    ActionOverride("NTHASDAR",StartDialogue("NTHASDAR",[PC]))
+END
+
+IF
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    ActionOverride(Myself,Enemy())
+    CreateCreature("NTLEGIAN",[628.2376],8)
+    CreateCreature("NTMARIEL",[785.2266],8)
+    CreateCreature("SHADOW01",[1067.2131],8)
+    CreateCreature("SHADOW01",[1048.2325],8)
+    CreateCreature("SHADOW01",[877.2368],8)
+END
+
+IF
+  AreaCheck("AR61PB")
+THEN
+  RESPONSE #100
+    ActionOverride(Myself,Enemy())
+END
+

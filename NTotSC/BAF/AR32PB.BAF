@@ -1,0 +1,28 @@
+IF
+  Global("SatosMustDie","GLOBAL",1)
+  Global("SatosDestroyedFinally","GLOBAL",0)
+  !Dead("NTSATOS")
+  Exists("NTSATOS")
+THEN
+  RESPONSE #100
+    ActionOverride("NTSATOS",DestroySelf())
+    ActionOverride("GUARPB1",DestroySelf())
+    ActionOverride("GUARPB2",DestroySelf())
+    ActionOverride("GUARPB3",DestroySelf())
+    ActionOverride("GUARPB4",DestroySelf())
+    CreateCreature("NTSATOS1",[527.659],0)
+    CreateCreature("NTKAMIRA",[619.683],5)
+    SetGlobal("SatosMustDie","GLOBAL",2)
+    SetGlobal("SatosDestroyedFinally","GLOBAL",1)
+END
+
+IF
+  Global("KrotanAppears","GLOBAL",1)
+  Global("SatosIsDeadPB","GLOBAL",1)
+  Dead("NTSATOS1")
+  Exists("NTKAMIRA")
+THEN
+  RESPONSE #100
+    ActionOverride("NTKamira",EscapeArea())
+END
+

@@ -1,0 +1,7 @@
+IF
+  Global("NimFurlong","GLOBAL",2)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+

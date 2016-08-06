@@ -1,0 +1,9 @@
+IF
+  Global("NTotSCSpawn","AR8609",0)
+THEN
+  RESPONSE #100
+    CreateCreature("IRONGU",[407.247],0)
+    CreateCreature("NTTYTUS",[281.260],0)
+    SetGlobal("NTotSCSpawn","AR8609",1)
+END
+

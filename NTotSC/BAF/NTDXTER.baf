@@ -1,0 +1,47 @@
+IF
+  Global("DexterWrong","GLOBAL",0)
+  AttackedBy([GOODCUTOFF],DEFAULT)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    SetGlobal("DexterWrong","GLOBAL",1)
+END
+
+IF
+  Global("DexterSetupPB","BG3306",1)
+  Allegiance("NTDXTER",NEUTRAL)
+THEN
+  RESPONSE #100
+    SetGlobal("DexterSetupPB","BG3306",2)
+    SetGlobal("DexterWrong","GLOBAL",1)
+    ActionOverride("NTDXTER",Enemy())
+    Enemy()
+END
+
+IF
+  Global("DexterWrong","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("NTDXTER",Enemy())
+    SetGlobal("DexterWrong","GLOBAL",2)
+    Enemy()
+END
+
+IF
+  Global("DexterWrong","GLOBAL",2)
+  See(NearestEnemyOf(Myself(Myself)))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_DEATH_SPELL)
+    SetGlobal("DexterWrong","GLOBAL",3)
+END
+
+IF
+  Global("DexterWrong","GLOBAL",3)
+  See(NearestEnemyOf(Myself(Myself)))
+THEN
+  RESPONSE #100
+    ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_DEATH_SPELL)
+    SetGlobal("DexterWrong","GLOBAL",2)
+END
+

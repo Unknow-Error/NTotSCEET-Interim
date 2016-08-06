@@ -1,0 +1,8 @@
+IF
+  GlobalGT("Chapter","GLOBAL",4)
+  Global("GheldeharSpawn","AR7200",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTGHELDE",[3595.1793],0)
+    SetGlobal("GheldeharSpawn","AR7200",1)
+END

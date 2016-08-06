@@ -1,0 +1,23 @@
+IF
+  !PartyHasItem("NTPBLET1")
+THEN
+  RESPONSE #100
+    TriggerActivation("TRAN51PB",FALSE)
+    Continue()
+END
+
+IF
+  PartyHasItem("NTPBLET1")
+THEN
+  RESPONSE #100
+    TriggerActivation("TRAN51PB",TRUE)
+    Continue()
+END
+
+IF
+  Global("NTPaladinSpawn","BG4500",0)
+THEN
+  RESPONSE #100
+    SetGlobal("NTPaladinSpawn","BG4500",1)
+    CreateCreature("NTSVLAST",[2615.1789],3)
+END

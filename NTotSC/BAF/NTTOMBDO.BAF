@@ -1,0 +1,13 @@
+IF
+  Clicked([ANYONE])
+THEN
+  RESPONSE #100
+    DisplayString(LastTrigger,@20)
+    ForceSpell(Player1,TRAP_FIREBALL)
+    ForceSpell(Player2,TRAP_FIREBALL)
+    ForceSpell(Player3,TRAP_FIREBALL)
+    ForceSpell(Player4,TRAP_FIREBALL)
+    ForceSpell(Player5,TRAP_FIREBALL)
+    ForceSpell(Player6,TRAP_FIREBALL)
+END
+

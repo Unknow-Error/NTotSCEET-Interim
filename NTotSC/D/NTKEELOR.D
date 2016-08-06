@@ -1,0 +1,40 @@
+BEGIN ~NTKEELOR~
+
+IF ~HPGT(Myself,15)
+HPLT(Myself,20)~ THEN BEGIN 0
+  SAY @0
+  IF ~~ THEN DO ~GiveItem("DSAXE04",LastTalkedToBy) Polymorph(FIGHTER_MALE_DWARF_LOW) EscapeArea()~ JOURNAL @1 EXIT
+END
+
+IF ~HPGT(Myself,20)
+HPLT(Myself,25)~ THEN BEGIN 1
+  SAY @2
+  IF ~~ THEN DO ~GiveItemCreate("AMUL11",LastTalkedToBy,0,0,0) Polymorph(FIGHTER_MALE_DWARF_LOW) EscapeArea()~ JOURNAL @3 EXIT
+END
+
+IF ~HPGT(Myself,25)~ THEN BEGIN 2
+  SAY @4
+  IF ~~ THEN DO ~Polymorph(FIGHTER_MALE_DWARF_LOW) EscapeArea()~ JOURNAL @5 EXIT
+END
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 3
+  SAY @6
+  IF ~~ THEN EXIT
+END
+
+IF ~HPGT(Myself,10)
+HPLT(Myself,15)~ THEN BEGIN 4
+  SAY @7
+  IF ~~ THEN DO ~Polymorph(FIGHTER_MALE_DWARF_LOW) EscapeArea()~ EXIT
+END
+
+IF ~HP(Myself,6)~ THEN BEGIN 5
+  SAY @8
+  IF ~~ THEN EXIT
+END
+
+IF ~HPGT(Myself,15)
+AttackedBy([GOODCUTOFF],DEFAULT)~ THEN BEGIN 6
+  SAY @9
+  IF ~~ THEN DO ~Polymorph(FIGHTER_MALE_DWARF_LOW) Enemy()~ EXIT
+END

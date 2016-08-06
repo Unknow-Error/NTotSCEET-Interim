@@ -1,0 +1,7 @@
+IF
+	Global("NTOrdolSpawn","BG5300",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NTOrdolSpawn","BG5300",1)
+		CreateCreature("NTOrdol",[1511.401],9) // Ordolath
+END

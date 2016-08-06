@@ -1,0 +1,10 @@
+IF
+  Global("NTotSCSpawns","AR7800",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTWinorm",[2908.1379],0)
+    CreateCreature("NTMagnad",[2936.1400],0)
+    CreateCreature("NTHasdar",[701.2053],0)
+    CreateCreature("NTShaell",[930.2084],0)
+    SetGlobal("NTotSCSpawns","AR7800",1)
+END

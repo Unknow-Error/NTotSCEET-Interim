@@ -1,0 +1,7 @@
+IF
+  Global("NTotSCSpawn","BG3400",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTRUDIER",[3522.1596],4)
+    SetGlobal("NTotSCSpawn","BG3400",1)
+END

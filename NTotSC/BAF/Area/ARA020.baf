@@ -1,0 +1,10 @@
+IF
+  Global("NTSpawn","ARA020",0)
+  Global("Swieca","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("FTOWB5",DestroySelf())
+    CreateCreature("NTSARQ",[458.210],0)
+    ActionOverride("Container 1",CreateItem("MISC74",1,0,0))
+    SetGlobal("NTSpawn","ARA020",1)
+END

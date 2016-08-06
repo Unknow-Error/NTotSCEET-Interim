@@ -1,0 +1,11 @@
+IF
+  Global("EldodIsFriendKrotan","GLOBAL",1)
+  Global("EldodIsSpawnedRoom","GLOBAL",0)
+  Global("DeadUtorByOrpeho","GLOBAL",1)
+  !Dead("NTELDOD")
+THEN
+  RESPONSE #100
+    CreateCreature("NTELDOD1",[619.683],0)
+    SetGlobal("EldodIsSpawnedRoom","GLOBAL",1)
+END
+

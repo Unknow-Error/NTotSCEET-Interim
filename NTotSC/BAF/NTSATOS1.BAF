@@ -1,0 +1,11 @@
+IF
+  Global("SatosMustDie","GLOBAL",1)
+  Global("SatosSaysGoodByeToLife","GLOBAL",0)
+  See([PC])
+  Delay(1)
+THEN
+  RESPONSE #100
+    SetGlobal("SatosSaysGoodByeToLife","GLOBAL",1)
+    ActionOverride("NTSATOS1",Dialog([PC]))
+END
+

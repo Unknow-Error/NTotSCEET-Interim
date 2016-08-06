@@ -1,0 +1,40 @@
+@0    = ~Hold on travelers! By accident or not - I've heard your dialogue with Shaella or as you prefer to call her, Elnaedra.  Are you really interested in finding this strange book?~
+@1    = ~No. And we're fed up with these strange people we meet, who don't know what they are talking about.~
+@2    = ~And why should we be interested?~
+@3    = ~Shaella knows what she is saying - or rather says what she still knows. She has seen this book and you can see its influence on her.  My task is to find this book and make it unavailable for unaurhorized beings, who could share the fate of Shaella.~
+@4    = ~Can we now hear "the offer we couldn't refuse"?~
+@5    = ~I know what you are trying to say and I will listen to you with pleasure as long as I hear the sound of gold coins; am I right my friend?~
+@6    = ~If you want to call it this way, my whole life I have collected money to get this book. I can give it to you if you accept my offer.~
+@7    = ~Why can't you take care of this on your own, if it's on your chest?~
+@8    = ~No. We have heard enough. It's time for us to go.~
+@9    = ~If everything was that simple. I can't meet with the one, who has some knowledge about this book. We have been friends once, but some woman became the cause of our conflict. I'd really prefer not to meet him. And neither would he.~
+@10   = ~Who is HE?~
+@11   = ~Lobar. The owner of the Low Lantern. Once, he had seen this book or at least its power.~
+@12   = ~We have heard enough. If you say it's so dangerous we would prefer not to touch it.~
+@13   = ~Go on - I'm listening carefully.~
+@14   = ~I offer you my whole treasure for this book. 10,000 gold pieces.  You don't have to read or use it, of course. Just bring it to me.~
+@15   = ~That's a lot of money. I will go to Lobar and we'll see if it is really the way you are saying.~
+@16   = ~Find the Great Book of Unknowing
+
+A man named Hasdar claims that the book does exist and that Lobar now has it.  He is willing to give me 10,000 gold for it!~
+@17   = ~Why shouldn't I just take care of your savings and do it my way?~
+@18   = ~We are still not interested in your offer. Find somebody else.~
+@19   = ~Of course you could try to do that, but I'm not sure if it would be so easy.~
+@20   = ~Well - I'll try to do it, monk.~
+@21   = ~It's ok. I don't like violence, especially a pointless one. I will go to Lobar to check what I can do.~
+@22   = ~Welcome back.  I can assume you have changed your mind?~
+@23   = ~Nope, but we feel like taking your savings.~
+@24   = ~No, we're just wandering by. We have other duties.~
+@25   = ~Yes, we'll accept your offer.~
+@26   = ~Wonderful. I'll be waiting for you here.~
+@27   = ~You should look for this book, it is very important.~
+@28   = ~Of course, but there's no harm to ask how are you doing.~
+@29   = ~Basically, we're not up for running after some stupid book. Running after you would be much more easy and funny.~
+@30   = ~So you have found it. The purpose of my long-term search. It's time for the reward.~
+@31   = ~We have put our back into this so we'll surely take what we were promised.~
+@32   = ~It was really difficult to get this book. Surely it is very valuable so I have decided to take both, the reward and the book.~
+@33   = ~I can imagine that. It's time for the reward - come my friends!~
+@34   = ~Find the Great Book of Unknowing
+
+I have returned the magical book to Hasdar, just to find that he planned to kill me.  I should have expected this.  Unfortunately, I never got my money.  If I ever meet him again, things will be different.~
+@35   = ~You're crazy but let it be this way.~

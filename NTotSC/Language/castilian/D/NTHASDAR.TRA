@@ -1,0 +1,40 @@
+@0    = ~¡Alto viajeros! Ya sea por accidente o no - he oido vuestra conversación con Shaella o como vosotros preferís llamarla, Elnaedra.  ¿Realmente estáis interesados en encontrar este extraño libro?~
+@1    = ~No. Y nos hemos hartado de la gente que nos vamos encontrando, ya que no saben de lo que hablan.~
+@2    = ~¿Y porqué nos debería interesar?~
+@3    = ~Shaella sabe lo que dice - o quizás solo dice lo que sabe. Ha visto este libro y podéis ver su influencia en ella.  Mi tarea es encontrar este libro y hacerlo indisponible a seres no autorizados, ya que podrían compartir el destino de Shaella.~
+@4    = ~¿Podemos ahora escuchar "la oferta que no podemos rechazar"?~
+@5    = ~Se lo que estáis intentando decir y os escucharé encantado mientras oiga el sonido de las monedas de oro; ¿estamos de acuerdo?~
+@6    = ~Si lo queréis llamar así, durante toda mi vida he ido guardando dinero para conseguir este libro. Os lo puedo dar si aceptáis mi oferta.~
+@7    = ~¿Porqué no os encargáis de esto por vuestra cuenta, si es que está a vuestro alcance?~
+@8    = ~No. Ya hemos oido bastante. Es el momento de irse.~
+@9    = ~Si todo fuera tan simple. No puedo encontrarme con el que sabe algo de este libro. Una vez fuimos amigos, pero algunas mujeres fueron la causa de nuestro conflicto. Prefiero no toparme con él. Y nunca sucederá.~
+@10   = ~¿Quién es ÉL?~
+@11   = ~Lobar. El propietario del Farol Bajo. Una vez vió este libro, o al menos su poder.~
+@12   = ~Ya hemos oido bastante. Si dices que es tan peligroso preferimos no tocarlo.~
+@13   = ~Sigue - estoy escuchando atentamente.~
+@14   = ~Os ofrezco un tesoro por este libro, 10000 piezas de oro.  No tenéis que leer o usarlo, por supuesto. Solo traédmelo.~
+@15   = ~Eso es mucho dinero. Iré a Lobar y veremos si es tal y como dices.~
+@16   = ~Buscar el Gran Libro de lo Desconocido
+
+Un hombre llamado Hasdar dice que el libro existe y que Lobar lo tiene.  ¡Me ha ofrecido 10000 piezas de oro por él!~
+@17   = ~¿Porqué no os preocupáis solamente de vuestros asuntos?~
+@18   = ~No estamos todavía interesados en vuestra oferta. Encontrad a otro.~
+@19   = ~Claro que lo podéis intentar, pero no estoy seguro de que sea fácil.~
+@20   = ~Bueno - intentaré hacerlo, monje.~
+@21   = ~De acuerdo. No me gusta la violencia, espcialmente la que no vale para nada. Iré a Lobar para ver que puedo hacer.~
+@22   = ~Bienvenidos de nuevo.  ¿Habéis cambiado de idea?~
+@23   = ~No, pero nos gustaría conseguir vuestros ahorros.~
+@24   = ~No, solo estábamos de paso. Tenemos otras tareas que hacer.~
+@25   = ~Si, aceptaremos vuestra oferta.~
+@26   = ~Maravilloso. Os estaré esperando aquí.~
+@27   = ~Debéis buscar este libro, es muy importante.~
+@28   = ~De acuerdo, pero no hará daño que os pregunte como os va.~
+@29   = ~Básicamente, no vamos a ir detrás de un estúpido libro. Correr detrás vuestro va a ser mucho más fácil y divertido.~
+@30   = ~Así que lo habéis encontrado. El propósito de mi larga espera. Es el momento de la recompensa.~
+@31   = ~Nos hemos dejdo la piel en esto, así que cogeremos lo que se nos ha prometido.~
+@32   = ~Fué realmente difícil coger este libro. Seguro que es muy valioso, así que he decidido coger tanto la recompensa como el libro.~
+@33   = ~Me lo podía imaginar. Es el momento de la recompensa - ¡Venid amigos!~
+@34   = ~Buscar el Gran Libro de lo Desconocido
+
+He devuelto el libro mágico a Hasdar, solo para ver que había planeado matarme.  Debería haber esperado algo así.  Desafortunadamente, nunca tuve mi dinero.  Si me lo vuelvo a encontrar, las cosas serán diferentes.~
+@35   = ~Estáis loco, pero dejémoslo así.~

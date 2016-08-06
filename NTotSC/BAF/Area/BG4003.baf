@@ -1,0 +1,8 @@
+IF
+  Global("NTotSCSpawn","BG4003",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NTHALFGU",[500.330],0)
+    SetGlobal("NTotSCSpawn","BG4003",1)
+END
+

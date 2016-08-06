@@ -1,0 +1,20 @@
+IF
+  Global("NTotSCSpawn","BG5000",0)
+THEN
+  RESPONSE #100
+    CreateCreature("NATALK9",[2248.240],3)
+    CreateCreature("ELKA9",[2145.205],4)
+    SetGlobal("NTotSCSpawn","BG5000",1)
+END
+
+IF
+  Global("NTotSCspawn","BG5000",1)
+  OR(2)
+  GlobalGT("DMWWC3Assassin","GLOBAL",0)
+  !Exists("LAMALHA")
+THEN
+  RESPONSE #100
+    ActionOverride("NATALK9",DestroySelf())
+    ActionOverride("ELKA9",DestroySelf())
+    SetGlobal("NTotSCSpawn","BG5000",2)
+END

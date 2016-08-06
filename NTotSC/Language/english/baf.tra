@@ -1,0 +1,11 @@
+//AR9PBA.baf
+@0    = ~On the way back you have noticed a small island and despite many difficulties you managed to put ashore to replenish your supplies for the further journey. The island looks to be inhabited.~
+
+//CUTREST.baf
+@10    = ~You have gotten some much needed rest.~
+
+//NTTOMBDO.baf
+@20   = ~Trap Sprung!~
+
+//SHIP.baf; SHIP1.baf
+@30   = ~You need to obtain the sea charts if you wish to navigate safely back to the main land.~

@@ -1,0 +1,9 @@
+IF
+  Global("NTotSCSpawn","BG0114",0)
+  Global("TalkedToLobarMage","GLOBAL",1)
+THEN
+  RESPONSE #100
+    CreateCreature("NTOUPAST",[622.575],3)
+    SetGlobal("NTotSCSpawn","BG0114",1)
+END
+

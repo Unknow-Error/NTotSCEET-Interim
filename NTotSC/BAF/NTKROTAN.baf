@@ -1,0 +1,48 @@
+IF
+  Global("EldodSaysTrue1","GLOBAL",2)
+  Global("KrotanAppears","GLOBAL",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("KrotanAppears","GLOBAL",1)
+    ActionOverride("NTKROTAN",StartDialogNoSet([PC]))
+END
+
+IF
+  Global("EldodSaysTrue3","GLOBAL",1)
+  Global("KrotanAppears","GLOBAL",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("KrotanAppears","GLOBAL",1)
+    ActionOverride("NTKROTAN",StartDialogNoSet([PC]))
+END
+
+IF
+  Global("EldodComeEnemy","GLOBAL",2)
+  Global("KrotanAppears","GLOBAL",0)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("KrotanAppears","GLOBAL",1)
+    ActionOverride("NTKROTAN",StartDialogNoSet([PC]))
+END
+
+IF
+  Dead("NTELDOD")
+  Global("KrotanAppears","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("KrotanAppears","GLOBAL",1)
+    ActionOverride("NTKROTAN",StartDialogNoSet([PC]))
+END
+
+IF
+  Dead("NTELDOD1")
+  Global("KrotanAppears","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("KrotanAppears","GLOBAL",1)
+    ActionOverride("NTKROTAN",StartDialogNoSet([PC]))
+END
+
