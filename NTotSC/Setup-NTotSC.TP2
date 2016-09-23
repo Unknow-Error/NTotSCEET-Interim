@@ -876,6 +876,12 @@ COPY ~NTotSC/CRE/NTSPIDER.cre~       ~override~
   SAY NAME1 @371
   SAY NAME2 @371
 
+COPY ~NTotSC/CRE/NTSVLAST.cre~       ~override~
+  SAY 0xa4 @373
+  SAY 0xec @374
+  SAY 0xf0 @375
+  SAY 0x10c @373
+
 COPY ~NTotSC/CRE/NTSZYPER.cre~       ~override~
   SAY NAME1 @376
   SAY NAME2 @376
