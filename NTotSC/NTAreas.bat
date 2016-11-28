@@ -59,5 +59,5 @@ del *.ogg
 del oggdec.exe
 cd..
 
-del dir NTotSC1
+rmdir /Q /S NTotSC1
 
