@@ -21,3 +21,4 @@ IF ~~ THEN BEGIN NTYes
 EscapeArea()~ JOURNAL @5 EXIT
 END
 END
+
