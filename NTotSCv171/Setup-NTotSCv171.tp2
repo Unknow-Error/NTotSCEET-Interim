@@ -1145,3 +1145,4 @@ Dialogue(Player1)~
 COMPILE_D_TO_DLG
 
 COPY ~NTotSCv171/tis~ ~override~
+COPY ~NTotSC/bam~ ~override~
