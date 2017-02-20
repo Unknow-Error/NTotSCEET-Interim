@@ -1580,268 +1580,40 @@ COPY_EXISTING ~BG0400.ARE~ ~override~
 BUT_ONLY_IF_IT_CHANGES  //********************************************************  ~BG0400.are~
 
 // AR9000 gets new travel region and new entrance for AR9001
-COPY_EXISTING ~BG2900.ARE~ ~override~
- READ_LONG  0x54  "actors_offset"
- READ_SHORT 0x58  "actors_num"
- READ_SHORT 0x5a  "infotrig_num"
- READ_LONG  0x5c  "infotrig_offset"
- READ_LONG  0x60  "spawns_offset"
- READ_LONG  0x64  "spawns_num"
- READ_LONG  0x68  "entrances_offset"
- READ_LONG  0x6c  "entrances_num"
- READ_LONG  0x70  "cont_offset"
- READ_SHORT 0x74  "cont_num"
- READ_SHORT 0x76  "items_num"
- READ_LONG  0x78  "items_offset"
- READ_LONG  0x7c  "vert_offset"
- READ_SHORT 0x80  "vert_num"
- READ_SHORT 0x82  "amb_num"
- READ_LONG  0x84  "amb_offset"
- READ_LONG  0x88  "vars_offset"
- READ_LONG  0x8c  "vars_num"
- READ_LONG  0xa0  "expbmp_offset"
- READ_LONG  0xa4  "doors_num"
- READ_LONG  0xa8  "doors_offset"
- READ_LONG  0xac  "anim_num"
- READ_LONG  0xb0  "anim_offset"
- READ_LONG  0xb4  "tiled_num"
- READ_LONG  0xb8  "tiled_offset"
- READ_LONG  0xbc  "songs_offset"
- READ_LONG  0xc0  "rest_spawns_offset"
- READ_LONG  0xc4  "automap_offset"
- READ_LONG  0xc8  "automap_num"
+COPY_EXISTING ~bg2900.ARE~ ~override~
+LPF fj_are_structure
+    INT_VAR
+    fj_type         = 2    //travel
+    fj_box_left     = 1985
+    fj_box_top      = 3244
+    fj_box_right    = 2034
+    fj_box_bottom   = 3323
+    fj_cursor_idx   = 28   //door
+    fj_vertex_0     = 1985 + (3296 << 16)
+    fj_vertex_1     = 2034 + (3323 << 16)
+    fj_vertex_2     = 2034 + (3272 << 16)
+    fj_vertex_3     = 1985 + (3244 << 16)
+//    fj_flags        = 0  (PartyRequired)
+    fj_loc_x        = 2009
+    fj_loc_y        = 3284
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = Tran9001
+    fj_destination_area = AR9001
+    fj_destination_name = Exit9000
+  END
+  
+  LPF fj_are_structure
+    INT_VAR
+    fj_loc_x       = 1913
+    fj_loc_y       = 3301
+    fj_orientation = 5
+    STR_VAR
+    fj_structure_type = entrance
+    fj_name           = Exit9001
+  END
 
-//adding new trigger ************************************************
-   SET offset = ("%infotrig_offset%"+0xc4*"%infotrig_num%")
-   INSERT_BYTES offset 0xc4
-   WRITE_ASCII offset ~Tran9001~
-   WRITE_SHORT (offset+0x20) 2            //travel trigger
-   WRITE_SHORT (offset+0x22) 1985         //bounding box
-   WRITE_SHORT (offset+0x24) 3244         //bounding box
-   WRITE_SHORT (offset+0x26) 2034         //bounding box
-   WRITE_SHORT (offset+0x28) 3323         //bounding box
-   WRITE_SHORT (offset+0x2a) 4            //vertices number
-   WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
-   WRITE_LONG  (offset+0x34) 28           //cursor
-   WRITE_ASCII (offset+0x38) ~AR9001~     //destination area
-   WRITE_ASCII (offset+0x40) ~Exit9000~   //destination area's entrance name
-   WRITE_LONG  (offset+0x60) 0x00000000   //flags - party required
-   WRITE_SHORT (offset+0x70) 2009         //Trap location X
-   WRITE_SHORT (offset+0x72) 3284         //Trap location Y
-   SET "infotrig_num"="%infotrig_num%"+1
-   WRITE_SHORT 0x5a  "%infotrig_num%"
-
-   SET "info_ext"=0xc4
-   PATCH_IF ("%actors_offset%">="%infotrig_offset%") BEGIN
-     "actors_offset"="%actors_offset%"+"%info_ext%"
-     WRITE_LONG  0x54 "%actors_offset%"
-   END
-   PATCH_IF ("%spawns_offset%">="%infotrig_offset%") BEGIN
-     "spawns_offset"="%spawns_offset%"+"%info_ext%"
-     WRITE_LONG  0x60  "%spawns_offset%"
-   END
-   PATCH_IF ("%entrances_offset%">="%infotrig_offset%") BEGIN
-     "entrances_offset"="%entrances_offset%"+"%info_ext%"
-     WRITE_LONG  0x68  "%entrances_offset%"
-   END
-   PATCH_IF ("%cont_offset%">="%infotrig_offset%") BEGIN
-     "cont_offset"="%cont_offset%"+"%info_ext%"
-     WRITE_LONG  0x70  "%cont_offset%"
-   END
-   PATCH_IF ("%items_offset%">="%infotrig_offset%") BEGIN
-     "items_offset"="%items_offset%"+"%info_ext%"
-     WRITE_LONG  0x78  "%items_offset%"
-   END
-   PATCH_IF ("%vert_offset%">="%infotrig_offset%") BEGIN
-     "vert_offset"="%vert_offset%"+"%info_ext%"
-     WRITE_LONG  0x7c  "%vert_offset%"
-   END
-   PATCH_IF ("%amb_offset%">="%infotrig_offset%") BEGIN
-     "amb_offset"="%amb_offset%"+"%info_ext%"
-     WRITE_LONG  0x84  "%amb_offset%"
-   END
-   PATCH_IF ("%vars_offset%">="%infotrig_offset%") BEGIN
-     "vars_offset"="%vars_offset%"+"%info_ext%"
-     WRITE_LONG  0x88  "%vars_offset%"
-   END
-   PATCH_IF ("%expbmp_offset%">="%infotrig_offset%") BEGIN
-     "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-     WRITE_LONG  0xa0  "%expbmp_offset%"
-   END
-   PATCH_IF ("%doors_offset%">="%infotrig_offset%") BEGIN
-     "doors_offset"="%doors_offset%"+"%info_ext%"
-     WRITE_LONG  0xa8  "%doors_offset%"
-   END
-   PATCH_IF ("%anim_offset%">="%infotrig_offset%") BEGIN
-     "anim_offset"="%anim_offset%"+"%info_ext%"
-     WRITE_LONG  0xb0  "%anim_offset%"
-   END
-   PATCH_IF ("%tiled_offset%">="%infotrig_offset%") BEGIN
-     "tiled_offset"="%tiled_offset%"+"%info_ext%"
-     WRITE_LONG  0xb8  "%tiled_offset%"
-   END
-   PATCH_IF ("%songs_offset%">="%infotrig_offset%") BEGIN
-     "songs_offset"="%songs_offset%"+"%info_ext%"
-     WRITE_LONG  0xbc  "%songs_offset%"
-   END
-   PATCH_IF ("%rest_spawns_offset%">="%infotrig_offset%") BEGIN
-     "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-     WRITE_LONG  0xc0  "%rest_spawns_offset%"
-   END
-   PATCH_IF ("%automap_offset%">="%infotrig_offset%") BEGIN
-     "automap_offset"="%automap_offset%"+"%info_ext%"
-     WRITE_LONG  0xc4  "%automap_offset%"
-   END
-
-  //adding 4 new vertices for triggers
-   SET offset = ("%vert_offset%"+0x04*"%vert_num%")
-   INSERT_BYTES offset (0x04*4)
-   WRITE_SHORT  offset      1985
-   WRITE_SHORT  (offset+2)  3296
-   WRITE_SHORT  (offset+4)  2034
-   WRITE_SHORT  (offset+6)  3323
-   WRITE_SHORT  (offset+8)  2034
-   WRITE_SHORT  (offset+10) 3272
-   WRITE_SHORT  (offset+12) 1985
-   WRITE_SHORT  (offset+14) 3244
-   SET "vert_num"="%vert_num%"+4
-   WRITE_SHORT 0x80  "%vert_num%"
-
-   SET "info_ext"=0x04*4
-   PATCH_IF ("%actors_offset%">="%vert_offset%") BEGIN
-     "actors_offset"="%actors_offset%"+"%info_ext%"
-     WRITE_LONG  0x54 "%actors_offset%"
-   END
-   PATCH_IF ("%spawns_offset%">="%vert_offset%") BEGIN
-     "spawns_offset"="%spawns_offset%"+"%info_ext%"
-     WRITE_LONG  0x60  "%spawns_offset%"
-   END
-   PATCH_IF ("%entrances_offset%">="%vert_offset%") BEGIN
-     "entrances_offset"="%entrances_offset%"+"%info_ext%"
-     WRITE_LONG  0x68  "%entrances_offset%"
-   END
-   PATCH_IF ("%cont_offset%">="%vert_offset%") BEGIN
-     "cont_offset"="%cont_offset%"+"%info_ext%"
-     WRITE_LONG  0x70  "%cont_offset%"
-   END
-   PATCH_IF ("%items_offset%">="%vert_offset%") BEGIN
-     "items_offset"="%items_offset%"+"%info_ext%"
-     WRITE_LONG  0x78  "%items_offset%"
-   END
-   PATCH_IF ("%infotrig_offset%">="%vert_offset%") BEGIN
-     "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
-     WRITE_LONG  0x5c  "%infotrig_offset%"
-   END
-   PATCH_IF ("%amb_offset%">="%vert_offset%") BEGIN
-     "amb_offset"="%amb_offset%"+"%info_ext%"
-     WRITE_LONG  0x84  "%amb_offset%"
-   END
-   PATCH_IF ("%vars_offset%">="%vert_offset%") BEGIN
-     "vars_offset"="%vars_offset%"+"%info_ext%"
-     WRITE_LONG  0x88  "%vars_offset%"
-   END
-   PATCH_IF ("%expbmp_offset%">="%vert_offset%") BEGIN
-     "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-     WRITE_LONG  0xa0  "%expbmp_offset%"
-   END
-   PATCH_IF ("%doors_offset%">="%vert_offset%") BEGIN
-     "doors_offset"="%doors_offset%"+"%info_ext%"
-     WRITE_LONG  0xa8  "%doors_offset%"
-   END
-   PATCH_IF ("%anim_offset%">="%vert_offset%") BEGIN
-     "anim_offset"="%anim_offset%"+"%info_ext%"
-     WRITE_LONG  0xb0  "%anim_offset%"
-   END
-   PATCH_IF ("%tiled_offset%">="%vert_offset%") BEGIN
-     "tiled_offset"="%tiled_offset%"+"%info_ext%"
-     WRITE_LONG  0xb8  "%tiled_offset%"
-   END
-   PATCH_IF ("%songs_offset%">="%vert_offset%") BEGIN
-     "songs_offset"="%songs_offset%"+"%info_ext%"
-     WRITE_LONG  0xbc  "%songs_offset%"
-   END
-   PATCH_IF ("%rest_spawns_offset%">="%vert_offset%") BEGIN
-     "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-     WRITE_LONG  0xc0  "%rest_spawns_offset%"
-   END
-   PATCH_IF ("%automap_offset%">="%vert_offset%") BEGIN
-     "automap_offset"="%automap_offset%"+"%info_ext%"
-     WRITE_LONG  0xc4  "%automap_offset%"
-   END
-
- //adding 1 new entrance
- SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
- INSERT_BYTES offset 0x68
- WRITE_ASCII  offset      ~Exit9001~
- WRITE_SHORT  (offset+0x20)  1913     //X
- WRITE_SHORT  (offset+0x22)  3301     //Y
- WRITE_LONG   (offset+0x24)  "5"      // facing
- SET "entrances_num"="%entrances_num%"+1
- WRITE_LONG 0x6c  "%entrances_num%"
-
- SET "info_ext"=0x68
- PATCH_IF ("%actors_offset%">="%entrances_offset%") BEGIN
-   "actors_offset"="%actors_offset%"+"%info_ext%"
-   WRITE_LONG  0x54 "%actors_offset%"
- END
- PATCH_IF ("%spawns_offset%">="%entrances_offset%") BEGIN
-   "spawns_offset"="%spawns_offset%"+"%info_ext%"
-   WRITE_LONG  0x60  "%spawns_offset%"
- END
- PATCH_IF ("%vert_offset%">="%entrances_offset%") BEGIN
-   "vert_offset"="%vert_offset%"+"%info_ext%"
-   WRITE_LONG  0x7c  "%vert_offset%"
- END
- PATCH_IF ("%cont_offset%">="%entrances_offset%") BEGIN
-   "cont_offset"="%cont_offset%"+"%info_ext%"
-   WRITE_LONG  0x70  "%cont_offset%"
- END
- PATCH_IF ("%items_offset%">="%entrances_offset%") BEGIN
-   "items_offset"="%items_offset%"+"%info_ext%"
-   WRITE_LONG  0x78  "%items_offset%"
- END
- PATCH_IF ("%infotrig_offset%">="%entrances_offset%") BEGIN
-   "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
-   WRITE_LONG  0x5c  "%infotrig_offset%"
- END
- PATCH_IF ("%amb_offset%">="%entrances_offset%") BEGIN
-   "amb_offset"="%amb_offset%"+"%info_ext%"
-   WRITE_LONG  0x84  "%amb_offset%"
- END
- PATCH_IF ("%vars_offset%">="%entrances_offset%") BEGIN
-   "vars_offset"="%vars_offset%"+"%info_ext%"
-   WRITE_LONG  0x88  "%vars_offset%"
- END
- PATCH_IF ("%expbmp_offset%">="%entrances_offset%") BEGIN
-   "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
-   WRITE_LONG  0xa0  "%expbmp_offset%"
- END
- PATCH_IF ("%doors_offset%">="%entrances_offset%") BEGIN
-   "doors_offset"="%doors_offset%"+"%info_ext%"
-   WRITE_LONG  0xa8  "%doors_offset%"
- END
- PATCH_IF ("%anim_offset%">="%entrances_offset%") BEGIN
-   "anim_offset"="%anim_offset%"+"%info_ext%"
-   WRITE_LONG  0xb0  "%anim_offset%"
- END
- PATCH_IF ("%tiled_offset%">="%entrances_offset%") BEGIN
-   "tiled_offset"="%tiled_offset%"+"%info_ext%"
-   WRITE_LONG  0xb8  "%tiled_offset%"
- END
- PATCH_IF ("%songs_offset%">="%entrances_offset%") BEGIN
-   "songs_offset"="%songs_offset%"+"%info_ext%"
-   WRITE_LONG  0xbc  "%songs_offset%"
- END
- PATCH_IF ("%rest_spawns_offset%">="%entrances_offset%") BEGIN
-   "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
-   WRITE_LONG  0xc0  "%rest_spawns_offset%"
- END
- PATCH_IF ("%automap_offset%">="%entrances_offset%") BEGIN
-   "automap_offset"="%automap_offset%"+"%info_ext%"
-   WRITE_LONG  0xc4  "%automap_offset%"
- END
-
-BUT_ONLY_IF_IT_CHANGES  //********************************************************  ~BG2900.are~
+ //********************************************************  ~BG2900.are~
 
 // AR9300 gets new travel region and new entrance for AR9305
 COPY_EXISTING ~BG3400.ARE~ ~override~
