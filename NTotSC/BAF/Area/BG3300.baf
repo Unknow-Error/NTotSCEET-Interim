@@ -1,33 +1,4 @@
 IF
-  Global("NTSpawn","BG3300",0)
-  LevelLT(Player1,4)
-THEN
-  RESPONSE #100
-    SetGlobal("NTSpawn","BG3300",1)
-    CreateCreature("NTWill2",[1858.310],6)
-END
-
-IF
-  Global("NTSpawn","BG3300",0)
-  OR(2)
-    Level(Player1,4)
-    Level(Player1,5)
-THEN
-  RESPONSE #100
-    SetGlobal("NTSpawn","BG3300",1)
-    CreateCreature("NTWILL4",[1858.310],6)
-END
-
-IF
-  Global("NTSpawn","BG3300",0)
-  LevelGT(Player1,5)
-THEN
-  RESPONSE #100
-    SetGlobal("NTSpawn","BG3300",1)
-    CreateCreature("NTWILL6",[1858.310],6)
-END
-
-IF
   Global("GolinSpawnRing","GLOBAL",0)
   GlobalGT("Chapter","GLOBAL",1)
 THEN
