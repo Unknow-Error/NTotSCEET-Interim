@@ -14,7 +14,7 @@ IF
   !Exists("LAMALHA")
 THEN
   RESPONSE #100
-    ActionOverride("NATALK9",DestroySelf())
-    ActionOverride("ELKA9",DestroySelf())
+    ActionOverride("NATALKA",DestroySelf())
+    ActionOverride("NTELKA",DestroySelf())
     SetGlobal("NTotSCSpawn","BG5000",2)
 END
