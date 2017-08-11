@@ -2245,12 +2245,7 @@ COMPILE ~NTotSC/BAF~ USING ~NTotSC/Language/%s/baf.tra~
 COPY_EXISTING ~BG5000.are~       ~override~
  WRITE_ASCII 0x94 ~bg5000~
 
-// Delete Wood elves script from BG4600.ARE
-// Laurel's dialog is in the D folder.
-
-/*COPY_EXISTING ~BG4600.bcs~       ~override~
-  REPLACE_BCS_BLOCK ~NTotSC/BCS/oAR3499.BCS~  ~NTotSC/BCS/nAR3499.BCS~
-BUT_ONLY_IF_IT_CHANGES*/
+COPY ~NTotSC/Wav~ ~override~
 
 APPEND ~mastarea.2da~
 ~AR01PB  value
@@ -2310,9 +2305,4 @@ ELSE BEGIN
   COPY ~ntotSC/Worldmap/links.tbl~ ~Worldmap/map_mods_links.tbl~
   COPY ~ntotSC/Worldmap/%LANGUAGE%/worldmap.tra~ ~Worldmap/map_mods_trans.tra~
 END
-
-COPY ~NTotSC\tisunpack.exe~ ~override~
-COPY_LARGE ~NTotSC\tiz~ ~override~
-
-AT_INTERACTIVE_EXIT ~ntotSC/NTAreas.bat~
 
