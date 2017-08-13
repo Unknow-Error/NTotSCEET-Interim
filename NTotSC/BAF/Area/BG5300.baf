@@ -5,3 +5,21 @@ THEN
 		SetGlobal("NTOrdolSpawn","BG5300",1)
 		CreateCreature("NTOrdol",[1511.401],9) // Ordolath
 END
+
+ IF
+ 	GlobalLT("TalkedToOupaste","Global",1)
++	Global("CaveOpen","BG5300",0)
+ THEN
+ 	RESPONSE #100
+ 		TriggerActivation("Tran80PB",FALSE)
++		SetGlobal("CaveOpen","BG5300",1)
+ END
+ 
+ IF
+ 	Global("TalkedToOupaste","Global",1)
++	Global("CaveOpen","BG5300",1)
+ THEN
+ 	RESPONSE #100
++		SetGlobal("CaveOpen","BG5300",2)
+ 		TriggerActivation("Tran80PB",TRUE)
+END
