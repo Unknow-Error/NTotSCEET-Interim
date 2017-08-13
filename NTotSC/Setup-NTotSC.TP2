@@ -660,7 +660,7 @@ COPY ~NTotSC/CRE/nteldod.cre~       ~override~
   SAY NAME1 @247 
   SAY NAME2 @247 
 
-COPY ~NTotSC/CRE/ELKA9.cre~       ~override~         
+COPY ~NTotSC/CRE/NTELKA.cre~       ~override~         
   SAY NAME1 @248 
   SAY NAME2 @248 
 
@@ -786,7 +786,7 @@ COPY ~NTotSC/CRE/NTNADALI.cre~       ~override~
   SAY NAME1 @315 
   SAY NAME2 @315 
 
-COPY ~NTotSC/CRE/NATALK9.cre~       ~override~       
+COPY ~NTotSC/CRE/NTNATALK.cre~       ~override~       
   SAY NAME1 @316 
   SAY NAME2 @316
 
@@ -2210,8 +2210,13 @@ COMPILE ~NTotSC/D~
 
 COPY_EXISTING	~INITDLG.BCS~	~override/INITGOLV.BCS~
 EXTEND_BOTTOM	~INITGOLV.BCS~	~NTotSC/BAF/NTGOLINV.BAF~
-
-EXTEND_BOTTOM ~BG4500.bcs~       ~NTotSC/BAF/Area/BG4500.BAF~
+EXTEND_BOTTOM ~LAMALHA.bcs~      ~NTotSC/BAF/Area/bg4500.BAF~
+COPY_EXISTING ~LAMALH.DLG~      ~override~
+DECOMPILE_AND_PATCH BEGIN
+  REPLACE_TEXTUALLY CASE_SENSITIVE EXACT_MATCH ~ActionOverride("MANEIRA",Enemy())~ ~ActionOverride("MANEIRA",Enemy())
+                                                                                    ActionOverride("NATALKA",Enemy())
+                                                                                    ActionOverride("NTELKA",Enemy())~
+END
 EXTEND_BOTTOM ~BG5000.bcs~       ~NTotSC/BAF/Area/BG5000.BAF~
 EXTEND_BOTTOM ~BG5300.bcs~       ~NTotSC/BAF/Area/BG5300.BAF~
 EXTEND_BOTTOM ~BG3300.bcs~       ~NTotSC/BAF/Area/BG3300.BAF~
