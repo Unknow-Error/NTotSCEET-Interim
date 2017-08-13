@@ -3,6 +3,6 @@ IF
 THEN
   RESPONSE #100
     SetGlobal("NTCharlesTalk","BG4101",2)
-    ActionOverride("CHARLE",StartDialogNoSet([PC]))
+    ActionOverride("CHARLESTON",StartDialogNoSet([PC]))
 END
 
